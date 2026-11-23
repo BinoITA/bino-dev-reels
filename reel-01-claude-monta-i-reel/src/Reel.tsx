@@ -1,3 +1,4 @@
+// © 2026 BinoITA (bino.dev, @bino.devs) — CC BY 4.0: se lo riusi, cita "@bino.devs — github.com/BinoITA/bino-dev-reels"
 // Il reel completo: 5 scene + voce + sottotitoli.
 // I punti di taglio tra le scene seguono le pause del narratore (vedi src/tempi.json).
 import { Audio } from "@remotion/media";

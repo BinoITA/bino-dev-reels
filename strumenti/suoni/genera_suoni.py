@@ -1,3 +1,4 @@
+# © 2026 BinoITA (bino.dev, @bino.devs) — licenza MIT — https://github.com/BinoITA/bino-dev-reels
 """Effetti sonori e base musicale generati col codice (numpy): nessuna licenza da rispettare, sono nostri.
 
 Uso (con l'ambiente di strumenti/voce-narratore, che ha numpy e soundfile):

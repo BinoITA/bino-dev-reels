@@ -1,3 +1,4 @@
+# © 2026 BinoITA (bino.dev, @bino.devs) — licenza MIT — https://github.com/BinoITA/bino-dev-reels
 """Narratore bino.dev: trasforma un copione in un file audio con una voce AI in italiano.
 
 Due motori:

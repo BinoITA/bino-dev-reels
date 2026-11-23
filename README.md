@@ -3,6 +3,11 @@
 Qui c'è **tutto il codice** dei reel di [@bino.devs](https://www.instagram.com/bino.devs/) su Instagram.
 Niente "commenta per ricevere": prendi, usa, modifica.
 
+> **Gratis, ma con i crediti.** Se usi questi reel o il loro codice (anche modificati, anche nei tuoi video)
+> **devi citare bino.dev**, per esempio nella didascalia:
+> *"Basato sul reel di @bino.devs (bino.dev) — github.com/BinoITA/bino-dev-reels — CC BY 4.0"*.
+> Dettagli in [`LICENSE.md`](LICENSE.md).
+
 Ogni reel è fatto interamente con il codice:
 
 - **video**: [Remotion](https://www.remotion.dev) (React), scritto da Claude Code
@@ -49,9 +54,12 @@ Musica ed effetti: [`strumenti/suoni/genera_suoni.py`](strumenti/suoni/genera_su
 Per Gemini serve una chiave gratuita di [Google AI Studio](https://aistudio.google.com) in un file `.env`
 nella radice del repository (copia `.env.example`).
 
-## Licenze
+## Licenze e crediti
 
-- Il codice di questo repository è sotto licenza **MIT** (vedi [`LICENSE`](LICENSE)).
+- **Reel** (`reel-*/`: scene, grafica, copioni, voce, musica): **CC BY 4.0**. Puoi usarli anche per guadagnare, ma **devi citare bino.dev** in modo visibile.
+- **Strumenti** (`strumenti/`): **MIT**. Va lasciata la nota di copyright in ogni copia del codice.
+- Nome **bino.dev** e logo **`<b/>`**: non inclusi nelle licenze.
+- Come dare i crediti, con righe pronte da copiare: [`LICENSE.md`](LICENSE.md).
 - **Remotion** ha una sua licenza: gratis per singoli e team fino a 3 persone,
   a pagamento per aziende più grandi. Leggila su https://www.remotion.dev/license.
 - La voce dei reel è generata con AI.

@@ -1,3 +1,4 @@
+// © 2026 BinoITA (bino.dev, @bino.devs) — CC BY 4.0: se lo riusi, cita "@bino.devs — github.com/BinoITA/bino-dev-reels"
 // Reel 01 v2 — stile "Editoriale chiaro". 6 scene sincronizzate con la voce (tempi in tempi.json),
 // passi 1-4 con barra di avanzamento, effetti sonori e base musicale generati col codice.
 // Tutti i tempi sono in frame a 30 fps, relativi all'inizio di ogni scena.

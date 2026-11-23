@@ -1,3 +1,4 @@
+# © 2026 BinoITA (bino.dev, @bino.devs) — licenza MIT — https://github.com/BinoITA/bino-dev-reels
 """Tempi parola per parola di una narrazione, allineati al copione (per i sottotitoli dei reel).
 
 Whisper (in locale, CPU) ascolta l'audio e dice quando inizia e finisce ogni parola.

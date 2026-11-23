@@ -1,3 +1,4 @@
+// © 2026 BinoITA (bino.dev, @bino.devs) — CC BY 4.0: se lo riusi, cita "@bino.devs — github.com/BinoITA/bino-dev-reels"
 // Anteprime di stile per il reel 01 v2: due direzioni grafiche (A = Neon notturno, B = Editoriale chiaro),
 // tre fotogrammi chiave ciascuna (gancio, processo, finale). Solo immagini ferme, per scegliere lo stile.
 import React from "react";
