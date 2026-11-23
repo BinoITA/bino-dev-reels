@@ -1,0 +1,16 @@
+Non ti chiedo di commentare “EDIT”. Ecco come Claude ha montato questo reel, gratis 👇
+
+1️⃣ Progetto video + skill per Claude, un solo comando:
+npx create-video@latest --blank --skills
+
+2️⃣ Voce AI: Gemini TTS (piano gratuito di Google)
+
+3️⃣ Il prompt che ho dato a Claude:
+"Crea un reel Instagram verticale (1080x1920, 30 fps) con Remotion, seguendo le skill di Remotion installate nel progetto. Il copione è in copione.txt e la voce in public/voce.wav. Dividi il video in una scena per ogni paragrafo, sincronizzata con le pause della voce. Aggiungi sottotitoli parola per parola con la parola detta evidenziata. Testi grandi, dentro la zona sicura del formato verticale, stile scuro da editor di codice. Niente musica."
+
+Poi solo correzioni da regista: più veloce, più grande, cambia colore.
+
+📂 Il codice completo sarà nel link in bio.
+💬 Commenta cosa vuoi che smonti nel prossimo video.
+
+#claude #claudecode #remotion #intelligenzaartificiale #ai #videoediting #reelitalia

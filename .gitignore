@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+out/
+strumenti/voce-narratore/modelli/
+*.wav
+!reel-*/public/*.wav
+.DS_Store
+Thumbs.db

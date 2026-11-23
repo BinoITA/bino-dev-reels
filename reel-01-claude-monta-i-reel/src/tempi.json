@@ -1,0 +1,657 @@
+{
+  "durataMs": 28480,
+  "paragrafi": [
+    {
+      "indice": 0,
+      "testo": "Questa pagina ti chiede di commentare EDIT per avere la guida su come Claude monta i reel.",
+      "startMs": 0,
+      "endMs": 4720
+    },
+    {
+      "indice": 1,
+      "testo": "Io non ti chiedo niente. Anzi: questo reel l'ha montato Claude. Dall'inizio alla fine.",
+      "startMs": 5120,
+      "endMs": 9800
+    },
+    {
+      "indice": 2,
+      "testo": "Gli ho dato un copione e una voce AI. Lui ha scritto il video in codice, con Remotion: ogni scritta, ogni animazione, ogni sottotitolo.",
+      "startMs": 10200,
+      "endMs": 17660
+    },
+    {
+      "indice": 3,
+      "testo": "Io ho fatto il regista: più veloce, più grande, cambia colore. Lui corregge in pochi secondi.",
+      "startMs": 18020,
+      "endMs": 22680
+    },
+    {
+      "indice": 4,
+      "testo": "Il prompt è in didascalia, il codice è gratis. Commenta cosa vuoi che smonti nel prossimo video.",
+      "startMs": 23080,
+      "endMs": 28120
+    }
+  ],
+  "captions": [
+    {
+      "text": "Questa",
+      "startMs": 0,
+      "endMs": 440,
+      "timestampMs": 220,
+      "confidence": null
+    },
+    {
+      "text": " pagina",
+      "startMs": 440,
+      "endMs": 780,
+      "timestampMs": 610,
+      "confidence": null
+    },
+    {
+      "text": " ti",
+      "startMs": 780,
+      "endMs": 980,
+      "timestampMs": 880,
+      "confidence": null
+    },
+    {
+      "text": " chiede",
+      "startMs": 980,
+      "endMs": 1200,
+      "timestampMs": 1090,
+      "confidence": null
+    },
+    {
+      "text": " di",
+      "startMs": 1200,
+      "endMs": 1280,
+      "timestampMs": 1240,
+      "confidence": null
+    },
+    {
+      "text": " commentare",
+      "startMs": 1280,
+      "endMs": 1780,
+      "timestampMs": 1530,
+      "confidence": null
+    },
+    {
+      "text": " EDIT",
+      "startMs": 1780,
+      "endMs": 2320,
+      "timestampMs": 2050,
+      "confidence": null
+    },
+    {
+      "text": " per",
+      "startMs": 2320,
+      "endMs": 2520,
+      "timestampMs": 2420,
+      "confidence": null
+    },
+    {
+      "text": " avere",
+      "startMs": 2520,
+      "endMs": 2720,
+      "timestampMs": 2620,
+      "confidence": null
+    },
+    {
+      "text": " la",
+      "startMs": 2720,
+      "endMs": 2900,
+      "timestampMs": 2810,
+      "confidence": null
+    },
+    {
+      "text": " guida",
+      "startMs": 2900,
+      "endMs": 3120,
+      "timestampMs": 3010,
+      "confidence": null
+    },
+    {
+      "text": " su",
+      "startMs": 3120,
+      "endMs": 3320,
+      "timestampMs": 3220,
+      "confidence": null
+    },
+    {
+      "text": " come",
+      "startMs": 3320,
+      "endMs": 3540,
+      "timestampMs": 3430,
+      "confidence": null
+    },
+    {
+      "text": " Claude",
+      "startMs": 3540,
+      "endMs": 4000,
+      "timestampMs": 3770,
+      "confidence": null
+    },
+    {
+      "text": " monta",
+      "startMs": 4000,
+      "endMs": 4360,
+      "timestampMs": 4180,
+      "confidence": null
+    },
+    {
+      "text": " i",
+      "startMs": 4360,
+      "endMs": 4480,
+      "timestampMs": 4420,
+      "confidence": null
+    },
+    {
+      "text": " reel.",
+      "startMs": 4480,
+      "endMs": 4720,
+      "timestampMs": 4600,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Io",
+      "startMs": 5120,
+      "endMs": 5260,
+      "timestampMs": 5190,
+      "confidence": null
+    },
+    {
+      "text": " non",
+      "startMs": 5260,
+      "endMs": 5380,
+      "timestampMs": 5320,
+      "confidence": null
+    },
+    {
+      "text": " ti",
+      "startMs": 5380,
+      "endMs": 5500,
+      "timestampMs": 5440,
+      "confidence": null
+    },
+    {
+      "text": " chiedo",
+      "startMs": 5500,
+      "endMs": 5660,
+      "timestampMs": 5580,
+      "confidence": null
+    },
+    {
+      "text": " niente.",
+      "startMs": 5660,
+      "endMs": 6060,
+      "timestampMs": 5860,
+      "confidence": null
+    },
+    {
+      "text": " Anzi:",
+      "startMs": 6320,
+      "endMs": 6700,
+      "timestampMs": 6510,
+      "confidence": null
+    },
+    {
+      "text": " questo",
+      "startMs": 6940,
+      "endMs": 7100,
+      "timestampMs": 7020,
+      "confidence": null
+    },
+    {
+      "text": " reel",
+      "startMs": 7100,
+      "endMs": 7480,
+      "timestampMs": 7290,
+      "confidence": null
+    },
+    {
+      "text": " l'ha",
+      "startMs": 7480,
+      "endMs": 7680,
+      "timestampMs": 7580,
+      "confidence": null
+    },
+    {
+      "text": " montato",
+      "startMs": 7680,
+      "endMs": 7980,
+      "timestampMs": 7830,
+      "confidence": null
+    },
+    {
+      "text": " Claude.",
+      "startMs": 7980,
+      "endMs": 8400,
+      "timestampMs": 8190,
+      "confidence": null
+    },
+    {
+      "text": " Dall'inizio",
+      "startMs": 8600,
+      "endMs": 9300,
+      "timestampMs": 8950,
+      "confidence": null
+    },
+    {
+      "text": " alla",
+      "startMs": 9300,
+      "endMs": 9520,
+      "timestampMs": 9410,
+      "confidence": null
+    },
+    {
+      "text": " fine.",
+      "startMs": 9520,
+      "endMs": 9800,
+      "timestampMs": 9660,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Gli",
+      "startMs": 10200,
+      "endMs": 10360,
+      "timestampMs": 10280,
+      "confidence": null
+    },
+    {
+      "text": " ho",
+      "startMs": 10360,
+      "endMs": 10400,
+      "timestampMs": 10380,
+      "confidence": null
+    },
+    {
+      "text": " dato",
+      "startMs": 10400,
+      "endMs": 10560,
+      "timestampMs": 10480,
+      "confidence": null
+    },
+    {
+      "text": " un",
+      "startMs": 10560,
+      "endMs": 10760,
+      "timestampMs": 10660,
+      "confidence": null
+    },
+    {
+      "text": " copione",
+      "startMs": 10760,
+      "endMs": 11100,
+      "timestampMs": 10930,
+      "confidence": null
+    },
+    {
+      "text": " e",
+      "startMs": 11100,
+      "endMs": 11360,
+      "timestampMs": 11230,
+      "confidence": null
+    },
+    {
+      "text": " una",
+      "startMs": 11360,
+      "endMs": 11480,
+      "timestampMs": 11420,
+      "confidence": null
+    },
+    {
+      "text": " voce",
+      "startMs": 11480,
+      "endMs": 11740,
+      "timestampMs": 11610,
+      "confidence": null
+    },
+    {
+      "text": " AI.",
+      "startMs": 11740,
+      "endMs": 12060,
+      "timestampMs": 11900,
+      "confidence": null
+    },
+    {
+      "text": " Lui",
+      "startMs": 12500,
+      "endMs": 12700,
+      "timestampMs": 12600,
+      "confidence": null
+    },
+    {
+      "text": " ha",
+      "startMs": 12700,
+      "endMs": 12900,
+      "timestampMs": 12800,
+      "confidence": null
+    },
+    {
+      "text": " scritto",
+      "startMs": 12900,
+      "endMs": 13220,
+      "timestampMs": 13060,
+      "confidence": null
+    },
+    {
+      "text": " il",
+      "startMs": 13220,
+      "endMs": 13300,
+      "timestampMs": 13260,
+      "confidence": null
+    },
+    {
+      "text": " video",
+      "startMs": 13300,
+      "endMs": 13460,
+      "timestampMs": 13380,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 13460,
+      "endMs": 13600,
+      "timestampMs": 13530,
+      "confidence": null
+    },
+    {
+      "text": " codice,",
+      "startMs": 13600,
+      "endMs": 13960,
+      "timestampMs": 13780,
+      "confidence": null
+    },
+    {
+      "text": " con",
+      "startMs": 14180,
+      "endMs": 14280,
+      "timestampMs": 14230,
+      "confidence": null
+    },
+    {
+      "text": " Remotion:",
+      "startMs": 14280,
+      "endMs": 14720,
+      "timestampMs": 14500,
+      "confidence": null
+    },
+    {
+      "text": " ogni",
+      "startMs": 15100,
+      "endMs": 15340,
+      "timestampMs": 15220,
+      "confidence": null
+    },
+    {
+      "text": " scritta,",
+      "startMs": 15340,
+      "endMs": 15760,
+      "timestampMs": 15550,
+      "confidence": null
+    },
+    {
+      "text": " ogni",
+      "startMs": 15960,
+      "endMs": 16100,
+      "timestampMs": 16030,
+      "confidence": null
+    },
+    {
+      "text": " animazione,",
+      "startMs": 16100,
+      "endMs": 16580,
+      "timestampMs": 16340,
+      "confidence": null
+    },
+    {
+      "text": " ogni",
+      "startMs": 16860,
+      "endMs": 17040,
+      "timestampMs": 16950,
+      "confidence": null
+    },
+    {
+      "text": " sottotitolo.",
+      "startMs": 17040,
+      "endMs": 17660,
+      "timestampMs": 17350,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Io",
+      "startMs": 18020,
+      "endMs": 18200,
+      "timestampMs": 18110,
+      "confidence": null
+    },
+    {
+      "text": " ho",
+      "startMs": 18200,
+      "endMs": 18260,
+      "timestampMs": 18230,
+      "confidence": null
+    },
+    {
+      "text": " fatto",
+      "startMs": 18260,
+      "endMs": 18420,
+      "timestampMs": 18340,
+      "confidence": null
+    },
+    {
+      "text": " il",
+      "startMs": 18420,
+      "endMs": 18560,
+      "timestampMs": 18490,
+      "confidence": null
+    },
+    {
+      "text": " regista:",
+      "startMs": 18560,
+      "endMs": 18880,
+      "timestampMs": 18720,
+      "confidence": null
+    },
+    {
+      "text": " più",
+      "startMs": 19200,
+      "endMs": 19280,
+      "timestampMs": 19240,
+      "confidence": null
+    },
+    {
+      "text": " veloce,",
+      "startMs": 19280,
+      "endMs": 19620,
+      "timestampMs": 19450,
+      "confidence": null
+    },
+    {
+      "text": " più",
+      "startMs": 19760,
+      "endMs": 19840,
+      "timestampMs": 19800,
+      "confidence": null
+    },
+    {
+      "text": " grande,",
+      "startMs": 19840,
+      "endMs": 20140,
+      "timestampMs": 19990,
+      "confidence": null
+    },
+    {
+      "text": " cambia",
+      "startMs": 20340,
+      "endMs": 20580,
+      "timestampMs": 20460,
+      "confidence": null
+    },
+    {
+      "text": " colore.",
+      "startMs": 20580,
+      "endMs": 20900,
+      "timestampMs": 20740,
+      "confidence": null
+    },
+    {
+      "text": " Lui",
+      "startMs": 21180,
+      "endMs": 21380,
+      "timestampMs": 21280,
+      "confidence": null
+    },
+    {
+      "text": " corregge",
+      "startMs": 21380,
+      "endMs": 21880,
+      "timestampMs": 21630,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 21880,
+      "endMs": 22020,
+      "timestampMs": 21950,
+      "confidence": null
+    },
+    {
+      "text": " pochi",
+      "startMs": 22020,
+      "endMs": 22200,
+      "timestampMs": 22110,
+      "confidence": null
+    },
+    {
+      "text": " secondi.",
+      "startMs": 22200,
+      "endMs": 22680,
+      "timestampMs": 22440,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Il",
+      "startMs": 23080,
+      "endMs": 23280,
+      "timestampMs": 23180,
+      "confidence": null
+    },
+    {
+      "text": " prompt",
+      "startMs": 23280,
+      "endMs": 23460,
+      "timestampMs": 23370,
+      "confidence": null
+    },
+    {
+      "text": " è",
+      "startMs": 23460,
+      "endMs": 23640,
+      "timestampMs": 23550,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 23640,
+      "endMs": 23700,
+      "timestampMs": 23670,
+      "confidence": null
+    },
+    {
+      "text": " didascalia,",
+      "startMs": 23700,
+      "endMs": 24140,
+      "timestampMs": 23920,
+      "confidence": null
+    },
+    {
+      "text": " il",
+      "startMs": 24460,
+      "endMs": 24620,
+      "timestampMs": 24540,
+      "confidence": null
+    },
+    {
+      "text": " codice",
+      "startMs": 24620,
+      "endMs": 25020,
+      "timestampMs": 24820,
+      "confidence": null
+    },
+    {
+      "text": " è",
+      "startMs": 25020,
+      "endMs": 25200,
+      "timestampMs": 25110,
+      "confidence": null
+    },
+    {
+      "text": " gratis.",
+      "startMs": 25200,
+      "endMs": 25720,
+      "timestampMs": 25460,
+      "confidence": null
+    },
+    {
+      "text": " Commenta",
+      "startMs": 26040,
+      "endMs": 26500,
+      "timestampMs": 26270,
+      "confidence": null
+    },
+    {
+      "text": " cosa",
+      "startMs": 26500,
+      "endMs": 26700,
+      "timestampMs": 26600,
+      "confidence": null
+    },
+    {
+      "text": " vuoi",
+      "startMs": 26700,
+      "endMs": 26940,
+      "timestampMs": 26820,
+      "confidence": null
+    },
+    {
+      "text": " che",
+      "startMs": 26940,
+      "endMs": 27020,
+      "timestampMs": 26980,
+      "confidence": null
+    },
+    {
+      "text": " smonti",
+      "startMs": 27020,
+      "endMs": 27360,
+      "timestampMs": 27190,
+      "confidence": null
+    },
+    {
+      "text": " nel",
+      "startMs": 27360,
+      "endMs": 27500,
+      "timestampMs": 27430,
+      "confidence": null
+    },
+    {
+      "text": " prossimo",
+      "startMs": 27500,
+      "endMs": 27880,
+      "timestampMs": 27690,
+      "confidence": null
+    },
+    {
+      "text": " video.",
+      "startMs": 27880,
+      "endMs": 28120,
+      "timestampMs": 28000,
+      "confidence": null
+    }
+  ]
+}
