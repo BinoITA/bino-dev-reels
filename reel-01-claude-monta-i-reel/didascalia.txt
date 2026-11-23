@@ -10,7 +10,7 @@ npx create-video@latest --blank --skills
 
 Poi solo correzioni da regista: più veloce, più grande, cambia colore.
 
-📂 Il codice completo sarà nel link in bio.
+📂 Il codice completo, gratis: github.com/BinoITA/bino-dev-reels (link in bio)
 💬 Commenta cosa vuoi che smonti nel prossimo video.
 
 #claude #claudecode #remotion #intelligenzaartificiale #ai #videoediting #reelitalia
