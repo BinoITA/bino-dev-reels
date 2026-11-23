@@ -8,6 +8,7 @@ Ogni reel è fatto interamente con il codice:
 - **video**: [Remotion](https://www.remotion.dev) (React), scritto da Claude Code
 - **voce**: Gemini TTS (piano gratuito) oppure [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M) in locale
 - **sottotitoli parola per parola**: [faster-whisper](https://github.com/SYSTRAN/faster-whisper) in locale, allineato al copione
+- **musica ed effetti sonori**: generati col codice (numpy), quindi senza problemi di licenza
 
 ## Reel
 
@@ -25,7 +26,7 @@ Ti servono [Node.js](https://nodejs.org) (20 o più) e, per la voce, Python 3.10
 cd reel-01-claude-monta-i-reel
 npm install
 npx remotion studio          # anteprima nel browser
-npx remotion render          # crea l'MP4 in out/
+npx remotion render ClaudeMontaIReelV2 out/reel.mp4   # crea l'MP4
 ```
 
 **2. Le skill di Remotion per Claude Code** (consigliate se vuoi far modificare il video a Claude)
@@ -34,7 +35,7 @@ npx remotion render          # crea l'MP4 in out/
 npx skills add remotion-dev/skills
 ```
 
-**3. La voce e i tempi delle parole** (solo se cambi il copione)
+**3. Voce, tempi delle parole, musica ed effetti** (solo se cambi il copione)
 
 ```bash
 cd strumenti/voce-narratore
@@ -44,6 +45,7 @@ pip install -r requirements.txt
 ```
 
 Poi vedi [`strumenti/voce-narratore/README.md`](strumenti/voce-narratore/README.md).
+Musica ed effetti: [`strumenti/suoni/genera_suoni.py`](strumenti/suoni/genera_suoni.py) (stesso ambiente Python).
 Per Gemini serve una chiave gratuita di [Google AI Studio](https://aistudio.google.com) in un file `.env`
 nella radice del repository (copia `.env.example`).
 

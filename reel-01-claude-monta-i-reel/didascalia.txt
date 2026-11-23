@@ -1,16 +1,17 @@
 Non ti chiedo di commentare “EDIT”. Ecco come Claude ha montato questo reel, gratis 👇
 
-1️⃣ Progetto video + skill per Claude, un solo comando:
-npx create-video@latest --blank --skills
-
+1️⃣ Copione: un paragrafo per ogni scena
 2️⃣ Voce AI: Gemini TTS (piano gratuito di Google)
+3️⃣ Video in codice: Remotion + Claude Code
+   npx create-video@latest --blank --skills
+4️⃣ Render: npx remotion render
 
-3️⃣ Il prompt che ho dato a Claude:
-"Crea un reel Instagram verticale (1080x1920, 30 fps) con Remotion, seguendo le skill di Remotion installate nel progetto. Il copione è in copione.txt e la voce in public/voce.wav. Dividi il video in una scena per ogni paragrafo, sincronizzata con le pause della voce. Aggiungi sottotitoli parola per parola con la parola detta evidenziata. Testi grandi, dentro la zona sicura del formato verticale, stile scuro da editor di codice. Niente musica."
+Il prompt che ho dato a Claude:
+"Crea un reel Instagram verticale (1080x1920, 30 fps) con Remotion, seguendo le skill di Remotion del progetto. Stile editoriale chiaro: sfondo color carta, testo nero, evidenziatore verde, bordi neri spessi e ombre piene. Il copione è in copione.txt e la voce in public/voce.wav: una scena per paragrafo, tagliata sulle pause della voce. Mostra i 4 passi con una barra di avanzamento in alto. Sottotitoli parola per parola con la parola detta evidenziata. Primo fotogramma già pieno, testi grandi dentro la zona sicura del formato verticale. Effetti sonori e una base musicale leggera sotto la voce."
 
-Poi solo correzioni da regista: più veloce, più grande, cambia colore.
+Anche musica ed effetti sonori sono generati col codice.
 
-📂 Il codice completo, gratis: github.com/BinoITA/bino-dev-reels (link in bio)
+📂 Tutto il codice, gratis: github.com/BinoITA/bino-dev-reels (link in bio)
 💬 Commenta cosa vuoi che smonti nel prossimo video.
 
-#claude #claudecode #remotion #intelligenzaartificiale #ai #videoediting #reelitalia
+#claude #claudecode #remotion #intelligenzaartificiale #ai #videoediting
