@@ -20,6 +20,7 @@ Ogni reel è fatto interamente con il codice:
 | # | Reel | Cartella |
 |---|---|---|
 | 01 | Claude monta i reel | [`reel-01-claude-monta-i-reel`](reel-01-claude-monta-i-reel) |
+| 02 | 10 stili di animazione con Claude | [`reel-02-dieci-stili`](reel-02-dieci-stili) |
 
 ## Come si usa
 

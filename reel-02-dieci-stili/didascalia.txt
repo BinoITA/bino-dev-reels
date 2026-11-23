@@ -1,0 +1,20 @@
+10 stili di animazione con Claude e Remotion. I prompt sono qui sotto, senza commentare niente 👇
+
+Base per tutti: "Crea con Remotion un video verticale 1080x1920 di un razzo che decolla, disegnato in SVG, con il mondo che scorre verso il basso. Stile:"
+
+1️⃣ Neon: sfondo quasi nero, solo contorni fucsia e ciano che brillano, fiamma gialla.
+2️⃣ Pixel art: razzo fatto di pixel da 18 px, movimento a scatti, stelle quadrate.
+3️⃣ Carta ritagliata: forme piatte con ombra sotto, nuvole di carta, stop-motion a 10 fps.
+4️⃣ Progetto tecnico: blueprint blu a griglia, linee bianche, quote e cartiglio, il disegno compare dall'alto.
+5️⃣ Glitch: copie rossa e ciano sfasate, strisce orizzontali che saltano a caso.
+6️⃣ Terminale: razzo in ASCII verde su nero, righe da vecchio monitor, cursore che lampeggia.
+7️⃣ Fumetto: contorni neri spessi, retino a puntini, linee di velocità e la scritta FIUUU!
+8️⃣ Argilla: forme morbide con gradienti, riflessi bianchi, effetto schiaccia e allunga.
+9️⃣ Matita: schizzo su quaderno a righe, tratteggio, linee che tremano ogni 4 frame.
+🔟 Vetro: macchie colorate sfocate dietro, razzo di vetro smerigliato semitrasparente.
+
+Il codice completo dei 10 stili è gratis: github.com/BinoITA/bino-dev-reels (link in bio)
+
+💬 Quale stile useresti per il tuo progetto?
+
+#claude #claudecode #remotion #animazione #intelligenzaartificiale #motiondesign
