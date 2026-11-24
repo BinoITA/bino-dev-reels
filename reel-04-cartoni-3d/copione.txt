@@ -1,0 +1,11 @@
+Fanno pagare 79 euro per questo. Te lo smonto gratis.
+
+Niente Blender, niente modelli scaricati: è tutto codice, scritto da Claude.
+
+Guarda: il robot è un cilindro, un cubo e qualche sfera. I palazzi sono cubi, gli alberi coni.
+
+Claude scrive la scena con Three.js, e Remotion la trasforma in video. Sul tuo computer, gratis.
+
+Il prompt per partire è nella descrizione, il codice del robot su GitHub.
+
+Mandalo a chi stava per pagare 79 euro.

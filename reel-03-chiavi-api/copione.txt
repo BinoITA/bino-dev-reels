@@ -1,0 +1,11 @@
+Nessuno ti dice che cancellare una API key da GitHub non basta.
+
+Resta nella storia dei commit. E i bot le trovano anche in un minuto.
+
+Se è uscita, cambiala subito: chi l'ha copiata ce l'ha ancora.
+
+Poi tre regole. La chiave sta nel punto env. Il punto env sta nel file gitignore. E mai nel frontend: lì la vede chiunque apra il sito.
+
+Ho chiesto a Claude uno script che controlla tutto questo prima del push, anche nella storia dei commit. È gratis, link in bio.
+
+Mandalo a chi fa app con l'AI.

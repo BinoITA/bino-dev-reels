@@ -1,0 +1,706 @@
+{
+  "durataMs": 29360,
+  "paragrafi": [
+    {
+      "indice": 0,
+      "testo": "Nessuno ti dice che cancellare una API key da GitHub non basta.",
+      "startMs": 0,
+      "endMs": 3680
+    },
+    {
+      "indice": 1,
+      "testo": "Resta nella storia dei commit. E i bot le trovano anche in un minuto.",
+      "startMs": 4040,
+      "endMs": 7800
+    },
+    {
+      "indice": 2,
+      "testo": "Se è uscita, cambiala subito: chi l'ha copiata ce l'ha ancora.",
+      "startMs": 8160,
+      "endMs": 11200
+    },
+    {
+      "indice": 3,
+      "testo": "Poi tre regole. La chiave sta nel punto env. Il punto env sta nel file gitignore. E mai nel frontend: lì la vede chiunque apra il sito.",
+      "startMs": 11820,
+      "endMs": 20580
+    },
+    {
+      "indice": 4,
+      "testo": "Ho chiesto a Claude uno script che controlla tutto questo prima del push, anche nella storia dei commit. È gratis, link in bio.",
+      "startMs": 21080,
+      "endMs": 27160
+    },
+    {
+      "indice": 5,
+      "testo": "Mandalo a chi fa app con l'AI.",
+      "startMs": 27660,
+      "endMs": 28900
+    }
+  ],
+  "captions": [
+    {
+      "text": "Nessuno",
+      "startMs": 0,
+      "endMs": 720,
+      "timestampMs": 360,
+      "confidence": null
+    },
+    {
+      "text": " ti",
+      "startMs": 720,
+      "endMs": 900,
+      "timestampMs": 810,
+      "confidence": null
+    },
+    {
+      "text": " dice",
+      "startMs": 900,
+      "endMs": 1140,
+      "timestampMs": 1020,
+      "confidence": null
+    },
+    {
+      "text": " che",
+      "startMs": 1140,
+      "endMs": 1400,
+      "timestampMs": 1270,
+      "confidence": null
+    },
+    {
+      "text": " cancellare",
+      "startMs": 1400,
+      "endMs": 2000,
+      "timestampMs": 1700,
+      "confidence": null
+    },
+    {
+      "text": " una",
+      "startMs": 2000,
+      "endMs": 2180,
+      "timestampMs": 2090,
+      "confidence": null
+    },
+    {
+      "text": " API",
+      "startMs": 2180,
+      "endMs": 2340,
+      "timestampMs": 2260,
+      "confidence": null
+    },
+    {
+      "text": " key",
+      "startMs": 2340,
+      "endMs": 2520,
+      "timestampMs": 2430,
+      "confidence": null
+    },
+    {
+      "text": " da",
+      "startMs": 2520,
+      "endMs": 2660,
+      "timestampMs": 2590,
+      "confidence": null
+    },
+    {
+      "text": " GitHub",
+      "startMs": 2660,
+      "endMs": 2940,
+      "timestampMs": 2800,
+      "confidence": null
+    },
+    {
+      "text": " non",
+      "startMs": 2940,
+      "endMs": 3340,
+      "timestampMs": 3140,
+      "confidence": null
+    },
+    {
+      "text": " basta.",
+      "startMs": 3340,
+      "endMs": 3680,
+      "timestampMs": 3510,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Resta",
+      "startMs": 4040,
+      "endMs": 4360,
+      "timestampMs": 4200,
+      "confidence": null
+    },
+    {
+      "text": " nella",
+      "startMs": 4360,
+      "endMs": 4560,
+      "timestampMs": 4460,
+      "confidence": null
+    },
+    {
+      "text": " storia",
+      "startMs": 4560,
+      "endMs": 4900,
+      "timestampMs": 4730,
+      "confidence": null
+    },
+    {
+      "text": " dei",
+      "startMs": 4900,
+      "endMs": 5040,
+      "timestampMs": 4970,
+      "confidence": null
+    },
+    {
+      "text": " commit.",
+      "startMs": 5040,
+      "endMs": 5280,
+      "timestampMs": 5160,
+      "confidence": null
+    },
+    {
+      "text": " E",
+      "startMs": 5740,
+      "endMs": 5860,
+      "timestampMs": 5800,
+      "confidence": null
+    },
+    {
+      "text": " i",
+      "startMs": 5860,
+      "endMs": 5960,
+      "timestampMs": 5910,
+      "confidence": null
+    },
+    {
+      "text": " bot",
+      "startMs": 5960,
+      "endMs": 6080,
+      "timestampMs": 6020,
+      "confidence": null
+    },
+    {
+      "text": " le",
+      "startMs": 6080,
+      "endMs": 6280,
+      "timestampMs": 6180,
+      "confidence": null
+    },
+    {
+      "text": " trovano",
+      "startMs": 6280,
+      "endMs": 6620,
+      "timestampMs": 6450,
+      "confidence": null
+    },
+    {
+      "text": " anche",
+      "startMs": 6620,
+      "endMs": 7080,
+      "timestampMs": 6850,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 7080,
+      "endMs": 7240,
+      "timestampMs": 7160,
+      "confidence": null
+    },
+    {
+      "text": " un",
+      "startMs": 7240,
+      "endMs": 7340,
+      "timestampMs": 7290,
+      "confidence": null
+    },
+    {
+      "text": " minuto.",
+      "startMs": 7340,
+      "endMs": 7800,
+      "timestampMs": 7570,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Se",
+      "startMs": 8160,
+      "endMs": 8380,
+      "timestampMs": 8270,
+      "confidence": null
+    },
+    {
+      "text": " è",
+      "startMs": 8380,
+      "endMs": 8460,
+      "timestampMs": 8420,
+      "confidence": null
+    },
+    {
+      "text": " uscita,",
+      "startMs": 8460,
+      "endMs": 8700,
+      "timestampMs": 8580,
+      "confidence": null
+    },
+    {
+      "text": " cambiala",
+      "startMs": 8860,
+      "endMs": 9160,
+      "timestampMs": 9010,
+      "confidence": null
+    },
+    {
+      "text": " subito:",
+      "startMs": 9160,
+      "endMs": 9520,
+      "timestampMs": 9340,
+      "confidence": null
+    },
+    {
+      "text": " chi",
+      "startMs": 9880,
+      "endMs": 10000,
+      "timestampMs": 9940,
+      "confidence": null
+    },
+    {
+      "text": " l'ha",
+      "startMs": 10000,
+      "endMs": 10120,
+      "timestampMs": 10060,
+      "confidence": null
+    },
+    {
+      "text": " copiata",
+      "startMs": 10120,
+      "endMs": 10460,
+      "timestampMs": 10290,
+      "confidence": null
+    },
+    {
+      "text": " ce",
+      "startMs": 10460,
+      "endMs": 10820,
+      "timestampMs": 10640,
+      "confidence": null
+    },
+    {
+      "text": " l'ha",
+      "startMs": 10820,
+      "endMs": 10940,
+      "timestampMs": 10880,
+      "confidence": null
+    },
+    {
+      "text": " ancora.",
+      "startMs": 10940,
+      "endMs": 11200,
+      "timestampMs": 11070,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Poi",
+      "startMs": 11820,
+      "endMs": 12060,
+      "timestampMs": 11940,
+      "confidence": null
+    },
+    {
+      "text": " tre",
+      "startMs": 12060,
+      "endMs": 12340,
+      "timestampMs": 12200,
+      "confidence": null
+    },
+    {
+      "text": " regole.",
+      "startMs": 12340,
+      "endMs": 12680,
+      "timestampMs": 12510,
+      "confidence": null
+    },
+    {
+      "text": " La",
+      "startMs": 13220,
+      "endMs": 13420,
+      "timestampMs": 13320,
+      "confidence": null
+    },
+    {
+      "text": " chiave",
+      "startMs": 13420,
+      "endMs": 13680,
+      "timestampMs": 13550,
+      "confidence": null
+    },
+    {
+      "text": " sta",
+      "startMs": 13680,
+      "endMs": 14040,
+      "timestampMs": 13860,
+      "confidence": null
+    },
+    {
+      "text": " nel",
+      "startMs": 14040,
+      "endMs": 14220,
+      "timestampMs": 14130,
+      "confidence": null
+    },
+    {
+      "text": " punto",
+      "startMs": 14220,
+      "endMs": 14440,
+      "timestampMs": 14330,
+      "confidence": null
+    },
+    {
+      "text": " env.",
+      "startMs": 14440,
+      "endMs": 14780,
+      "timestampMs": 14610,
+      "confidence": null
+    },
+    {
+      "text": " Il",
+      "startMs": 15220,
+      "endMs": 15360,
+      "timestampMs": 15290,
+      "confidence": null
+    },
+    {
+      "text": " punto",
+      "startMs": 15360,
+      "endMs": 15560,
+      "timestampMs": 15460,
+      "confidence": null
+    },
+    {
+      "text": " env",
+      "startMs": 15560,
+      "endMs": 15860,
+      "timestampMs": 15710,
+      "confidence": null
+    },
+    {
+      "text": " sta",
+      "startMs": 15860,
+      "endMs": 16200,
+      "timestampMs": 16030,
+      "confidence": null
+    },
+    {
+      "text": " nel",
+      "startMs": 16200,
+      "endMs": 16380,
+      "timestampMs": 16290,
+      "confidence": null
+    },
+    {
+      "text": " file",
+      "startMs": 16380,
+      "endMs": 16640,
+      "timestampMs": 16510,
+      "confidence": null
+    },
+    {
+      "text": " gitignore.",
+      "startMs": 16640,
+      "endMs": 17380,
+      "timestampMs": 17010,
+      "confidence": null
+    },
+    {
+      "text": " E",
+      "startMs": 17780,
+      "endMs": 17900,
+      "timestampMs": 17840,
+      "confidence": null
+    },
+    {
+      "text": " mai",
+      "startMs": 17900,
+      "endMs": 18240,
+      "timestampMs": 18070,
+      "confidence": null
+    },
+    {
+      "text": " nel",
+      "startMs": 18240,
+      "endMs": 18420,
+      "timestampMs": 18330,
+      "confidence": null
+    },
+    {
+      "text": " frontend:",
+      "startMs": 18420,
+      "endMs": 18960,
+      "timestampMs": 18690,
+      "confidence": null
+    },
+    {
+      "text": " lì",
+      "startMs": 19380,
+      "endMs": 19460,
+      "timestampMs": 19420,
+      "confidence": null
+    },
+    {
+      "text": " la",
+      "startMs": 19460,
+      "endMs": 19580,
+      "timestampMs": 19520,
+      "confidence": null
+    },
+    {
+      "text": " vede",
+      "startMs": 19580,
+      "endMs": 19720,
+      "timestampMs": 19650,
+      "confidence": null
+    },
+    {
+      "text": " chiunque",
+      "startMs": 19720,
+      "endMs": 20040,
+      "timestampMs": 19880,
+      "confidence": null
+    },
+    {
+      "text": " apra",
+      "startMs": 20040,
+      "endMs": 20260,
+      "timestampMs": 20150,
+      "confidence": null
+    },
+    {
+      "text": " il",
+      "startMs": 20260,
+      "endMs": 20340,
+      "timestampMs": 20300,
+      "confidence": null
+    },
+    {
+      "text": " sito.",
+      "startMs": 20340,
+      "endMs": 20580,
+      "timestampMs": 20460,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Ho",
+      "startMs": 21080,
+      "endMs": 21260,
+      "timestampMs": 21170,
+      "confidence": null
+    },
+    {
+      "text": " chiesto",
+      "startMs": 21260,
+      "endMs": 21460,
+      "timestampMs": 21360,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 21460,
+      "endMs": 21520,
+      "timestampMs": 21490,
+      "confidence": null
+    },
+    {
+      "text": " Claude",
+      "startMs": 21520,
+      "endMs": 21780,
+      "timestampMs": 21650,
+      "confidence": null
+    },
+    {
+      "text": " uno",
+      "startMs": 21780,
+      "endMs": 21980,
+      "timestampMs": 21880,
+      "confidence": null
+    },
+    {
+      "text": " script",
+      "startMs": 21980,
+      "endMs": 22240,
+      "timestampMs": 22110,
+      "confidence": null
+    },
+    {
+      "text": " che",
+      "startMs": 22240,
+      "endMs": 22520,
+      "timestampMs": 22380,
+      "confidence": null
+    },
+    {
+      "text": " controlla",
+      "startMs": 22520,
+      "endMs": 22940,
+      "timestampMs": 22730,
+      "confidence": null
+    },
+    {
+      "text": " tutto",
+      "startMs": 22940,
+      "endMs": 23220,
+      "timestampMs": 23080,
+      "confidence": null
+    },
+    {
+      "text": " questo",
+      "startMs": 23220,
+      "endMs": 23500,
+      "timestampMs": 23360,
+      "confidence": null
+    },
+    {
+      "text": " prima",
+      "startMs": 23500,
+      "endMs": 23780,
+      "timestampMs": 23640,
+      "confidence": null
+    },
+    {
+      "text": " del",
+      "startMs": 23780,
+      "endMs": 23960,
+      "timestampMs": 23870,
+      "confidence": null
+    },
+    {
+      "text": " push,",
+      "startMs": 23960,
+      "endMs": 24220,
+      "timestampMs": 24090,
+      "confidence": null
+    },
+    {
+      "text": " anche",
+      "startMs": 24480,
+      "endMs": 24680,
+      "timestampMs": 24580,
+      "confidence": null
+    },
+    {
+      "text": " nella",
+      "startMs": 24680,
+      "endMs": 24880,
+      "timestampMs": 24780,
+      "confidence": null
+    },
+    {
+      "text": " storia",
+      "startMs": 24880,
+      "endMs": 25220,
+      "timestampMs": 25050,
+      "confidence": null
+    },
+    {
+      "text": " dei",
+      "startMs": 25220,
+      "endMs": 25340,
+      "timestampMs": 25280,
+      "confidence": null
+    },
+    {
+      "text": " commit.",
+      "startMs": 25340,
+      "endMs": 25620,
+      "timestampMs": 25480,
+      "confidence": null
+    },
+    {
+      "text": " È",
+      "startMs": 26000,
+      "endMs": 26100,
+      "timestampMs": 26050,
+      "confidence": null
+    },
+    {
+      "text": " gratis,",
+      "startMs": 26100,
+      "endMs": 26540,
+      "timestampMs": 26320,
+      "confidence": null
+    },
+    {
+      "text": " link",
+      "startMs": 26700,
+      "endMs": 26860,
+      "timestampMs": 26780,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 26860,
+      "endMs": 27020,
+      "timestampMs": 26940,
+      "confidence": null
+    },
+    {
+      "text": " bio.",
+      "startMs": 27020,
+      "endMs": 27160,
+      "timestampMs": 27090,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Mandalo",
+      "startMs": 27660,
+      "endMs": 28060,
+      "timestampMs": 27860,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 28060,
+      "endMs": 28220,
+      "timestampMs": 28140,
+      "confidence": null
+    },
+    {
+      "text": " chi",
+      "startMs": 28220,
+      "endMs": 28280,
+      "timestampMs": 28250,
+      "confidence": null
+    },
+    {
+      "text": " fa",
+      "startMs": 28280,
+      "endMs": 28440,
+      "timestampMs": 28360,
+      "confidence": null
+    },
+    {
+      "text": " app",
+      "startMs": 28440,
+      "endMs": 28560,
+      "timestampMs": 28500,
+      "confidence": null
+    },
+    {
+      "text": " con",
+      "startMs": 28560,
+      "endMs": 28680,
+      "timestampMs": 28620,
+      "confidence": null
+    },
+    {
+      "text": " l'AI.",
+      "startMs": 28680,
+      "endMs": 28900,
+      "timestampMs": 28790,
+      "confidence": null
+    }
+  ]
+}

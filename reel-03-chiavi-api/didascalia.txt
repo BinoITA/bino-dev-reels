@@ -1,0 +1,21 @@
+Cancellare una API key da GitHub non basta. Lo script per controllare il tuo progetto è gratis, senza commentare niente 👇
+
+Se una chiave è finita su GitHub:
+1️⃣ Cambiala subito dal sito del servizio: revocala e creane una nuova. Cancellarla dal file non la toglie dalla storia dei commit, e chi l'ha copiata ce l'ha ancora.
+2️⃣ Le chiavi stanno nel file .env, mai nel codice.
+3️⃣ Il .env sta nel .gitignore. Nel repository metti solo un .env.example vuoto.
+4️⃣ Mai nel frontend: con Vite le variabili che iniziano con VITE_ finiscono nel codice che scarica il browser. Le chiamate con la chiave passano dal tuo server.
+5️⃣ GitHub blocca già alcune chiavi sui repository pubblici, ma non tutte, e non quelle nel frontend.
+
+Quanto ci mettono a trovarle? In un esperimento di Comparitech una chiave AWS lasciata su GitHub è stata usata in meno di un minuto.
+
+🔍 controlla-segreti.py, fatto con Claude: controlla file, storia dei commit, .env e frontend prima del push. Gira sul tuo computer e non manda niente a nessuno. Gratis, licenza MIT: github.com/BinoITA/bino-dev-reels (link in bio)
+
+Prompt per Claude Code:
+"Controlla questo progetto: cerca API key e segreti nei file e nella storia dei commit, verifica che il .env sia nel .gitignore e che nessuna chiave finisca nel frontend. Non stampare le chiavi per intero. Elenca cosa cambiare e in che ordine."
+
+Per controlli più completi esiste anche gitleaks.
+
+📤 Mandalo a chi fa app con l'AI.
+
+#claudecode #cybersecurity #github #programmazione #sviluppoweb

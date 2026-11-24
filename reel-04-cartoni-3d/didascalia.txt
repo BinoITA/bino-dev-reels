@@ -1,0 +1,14 @@
+Cartoni 3D con Claude, senza Blender: c'è chi li insegna a 79 euro. Il prompt per partire è qui sotto, gratis 👇
+
+Il trucco: niente modelli scaricati. Claude scrive codice Three.js che costruisce la scena con forme base (il robot è un cilindro, un cubo arrotondato e qualche sfera; i palazzi sono cubi, gli alberi coni) e Remotion la trasforma in video, sul tuo computer.
+
+Prompt per Claude Code:
+"Crea un progetto Remotion verticale 1080x1920 a 30 fps con @remotion/three. Disegna un piccolo personaggio cartoon solo con forme base di Three.js (testa cubo arrotondato con uno schermo per faccia, corpo cilindro, braccia e gambe capsule, mani sfere) in una piazzetta low-poly con palazzi a cubo, alberi a cono e una fontana. Luce calda da tramonto con ombre morbide, colori pastello. Anima tutto con useCurrentFrame, mai useFrame: camminata con peso, schiaccia e allunga quando salta, battito di ciglia, telecamera che si muove con easing. Alla fine fai 'esplodere' il personaggio nei suoi pezzi e rimontalo con un rimbalzo."
+
+Poi chiedi i ritocchi una cosa alla volta: "più espressivo", "telecamera più lenta", "ombre più morbide".
+
+🔍 Il codice completo di Bino (personaggio, piazzetta, animazioni) è gratis: github.com/BinoITA/bino-dev-reels (link in bio)
+
+📤 Mandalo a chi stava per pagare 79 euro.
+
+#claudecode #animazione3d #threejs #remotion #motiondesign

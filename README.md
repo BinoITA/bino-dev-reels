@@ -14,6 +14,9 @@ Ogni reel è fatto interamente con il codice:
 - **voce**: Gemini TTS (piano gratuito) oppure [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M) in locale
 - **sottotitoli parola per parola**: [faster-whisper](https://github.com/SYSTRAN/faster-whisper) in locale, allineato al copione
 - **musica ed effetti sonori**: generati col codice (numpy), quindi senza problemi di licenza
+- **3D** (reel 04): [Three.js](https://threejs.org) dentro Remotion con `@remotion/three`, solo forme base, niente Blender
+
+Strumenti in più: [`strumenti/sicurezza/controlla-segreti.py`](strumenti/sicurezza/controlla-segreti.py) controlla chiavi API, storia dei commit, `.env` e frontend prima del push.
 
 ## Reel
 
@@ -21,6 +24,8 @@ Ogni reel è fatto interamente con il codice:
 |---|---|---|
 | 01 | Claude monta i reel | [`reel-01-claude-monta-i-reel`](reel-01-claude-monta-i-reel) |
 | 02 | 10 stili di animazione con Claude | [`reel-02-dieci-stili`](reel-02-dieci-stili) |
+| 03 | Cancellare una API key da GitHub non basta | [`reel-03-chiavi-api`](reel-03-chiavi-api) |
+| 04 | Cartoni 3D con Claude, senza Blender (la mascotte Bino) | [`reel-04-cartoni-3d`](reel-04-cartoni-3d) |
 
 ## Come si usa
 

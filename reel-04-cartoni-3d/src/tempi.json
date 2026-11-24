@@ -1,0 +1,580 @@
+{
+  "durataMs": 28160,
+  "paragrafi": [
+    {
+      "indice": 0,
+      "testo": "Fanno pagare 79 euro per questo. Te lo smonto gratis.",
+      "startMs": 0,
+      "endMs": 4000
+    },
+    {
+      "indice": 1,
+      "testo": "Niente Blender, niente modelli scaricati: è tutto codice, scritto da Claude.",
+      "startMs": 4220,
+      "endMs": 8000
+    },
+    {
+      "indice": 2,
+      "testo": "Guarda: il robot è un cilindro, un cubo e qualche sfera. I palazzi sono cubi, gli alberi coni.",
+      "startMs": 8500,
+      "endMs": 14220
+    },
+    {
+      "indice": 3,
+      "testo": "Claude scrive la scena con Three.js, e Remotion la trasforma in video. Sul tuo computer, gratis.",
+      "startMs": 14680,
+      "endMs": 20860
+    },
+    {
+      "indice": 4,
+      "testo": "Il prompt per partire è nella descrizione, il codice del robot su GitHub.",
+      "startMs": 21380,
+      "endMs": 24980
+    },
+    {
+      "indice": 5,
+      "testo": "Mandalo a chi stava per pagare 79 euro.",
+      "startMs": 25620,
+      "endMs": 27820
+    }
+  ],
+  "captions": [
+    {
+      "text": "Fanno",
+      "startMs": 0,
+      "endMs": 480,
+      "timestampMs": 240,
+      "confidence": null
+    },
+    {
+      "text": " pagare",
+      "startMs": 480,
+      "endMs": 860,
+      "timestampMs": 670,
+      "confidence": null
+    },
+    {
+      "text": " 79",
+      "startMs": 860,
+      "endMs": 1460,
+      "timestampMs": 1160,
+      "confidence": null
+    },
+    {
+      "text": " euro",
+      "startMs": 1460,
+      "endMs": 1920,
+      "timestampMs": 1690,
+      "confidence": null
+    },
+    {
+      "text": " per",
+      "startMs": 1920,
+      "endMs": 2100,
+      "timestampMs": 2010,
+      "confidence": null
+    },
+    {
+      "text": " questo.",
+      "startMs": 2100,
+      "endMs": 2460,
+      "timestampMs": 2280,
+      "confidence": null
+    },
+    {
+      "text": " Te",
+      "startMs": 2860,
+      "endMs": 3160,
+      "timestampMs": 3010,
+      "confidence": null
+    },
+    {
+      "text": " lo",
+      "startMs": 3160,
+      "endMs": 3260,
+      "timestampMs": 3210,
+      "confidence": null
+    },
+    {
+      "text": " smonto",
+      "startMs": 3260,
+      "endMs": 3480,
+      "timestampMs": 3370,
+      "confidence": null
+    },
+    {
+      "text": " gratis.",
+      "startMs": 3480,
+      "endMs": 4000,
+      "timestampMs": 3740,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Niente",
+      "startMs": 4220,
+      "endMs": 4560,
+      "timestampMs": 4390,
+      "confidence": null
+    },
+    {
+      "text": " Blender,",
+      "startMs": 4560,
+      "endMs": 4940,
+      "timestampMs": 4750,
+      "confidence": null
+    },
+    {
+      "text": " niente",
+      "startMs": 5180,
+      "endMs": 5340,
+      "timestampMs": 5260,
+      "confidence": null
+    },
+    {
+      "text": " modelli",
+      "startMs": 5340,
+      "endMs": 5700,
+      "timestampMs": 5520,
+      "confidence": null
+    },
+    {
+      "text": " scaricati:",
+      "startMs": 5700,
+      "endMs": 6240,
+      "timestampMs": 5970,
+      "confidence": null
+    },
+    {
+      "text": " è",
+      "startMs": 6340,
+      "endMs": 6480,
+      "timestampMs": 6410,
+      "confidence": null
+    },
+    {
+      "text": " tutto",
+      "startMs": 6480,
+      "endMs": 6700,
+      "timestampMs": 6590,
+      "confidence": null
+    },
+    {
+      "text": " codice,",
+      "startMs": 6700,
+      "endMs": 7100,
+      "timestampMs": 6900,
+      "confidence": null
+    },
+    {
+      "text": " scritto",
+      "startMs": 7240,
+      "endMs": 7560,
+      "timestampMs": 7400,
+      "confidence": null
+    },
+    {
+      "text": " da",
+      "startMs": 7560,
+      "endMs": 7700,
+      "timestampMs": 7630,
+      "confidence": null
+    },
+    {
+      "text": " Claude.",
+      "startMs": 7700,
+      "endMs": 8000,
+      "timestampMs": 7850,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Guarda:",
+      "startMs": 8500,
+      "endMs": 8920,
+      "timestampMs": 8710,
+      "confidence": null
+    },
+    {
+      "text": " il",
+      "startMs": 9240,
+      "endMs": 9380,
+      "timestampMs": 9310,
+      "confidence": null
+    },
+    {
+      "text": " robot",
+      "startMs": 9380,
+      "endMs": 9600,
+      "timestampMs": 9490,
+      "confidence": null
+    },
+    {
+      "text": " è",
+      "startMs": 9600,
+      "endMs": 9920,
+      "timestampMs": 9760,
+      "confidence": null
+    },
+    {
+      "text": " un",
+      "startMs": 9920,
+      "endMs": 10060,
+      "timestampMs": 9990,
+      "confidence": null
+    },
+    {
+      "text": " cilindro,",
+      "startMs": 10060,
+      "endMs": 10540,
+      "timestampMs": 10300,
+      "confidence": null
+    },
+    {
+      "text": " un",
+      "startMs": 10740,
+      "endMs": 10900,
+      "timestampMs": 10820,
+      "confidence": null
+    },
+    {
+      "text": " cubo",
+      "startMs": 10900,
+      "endMs": 11340,
+      "timestampMs": 11120,
+      "confidence": null
+    },
+    {
+      "text": " e",
+      "startMs": 11340,
+      "endMs": 11440,
+      "timestampMs": 11390,
+      "confidence": null
+    },
+    {
+      "text": " qualche",
+      "startMs": 11440,
+      "endMs": 11640,
+      "timestampMs": 11540,
+      "confidence": null
+    },
+    {
+      "text": " sfera.",
+      "startMs": 11640,
+      "endMs": 11980,
+      "timestampMs": 11810,
+      "confidence": null
+    },
+    {
+      "text": " I",
+      "startMs": 12440,
+      "endMs": 12520,
+      "timestampMs": 12480,
+      "confidence": null
+    },
+    {
+      "text": " palazzi",
+      "startMs": 12520,
+      "endMs": 12820,
+      "timestampMs": 12670,
+      "confidence": null
+    },
+    {
+      "text": " sono",
+      "startMs": 12820,
+      "endMs": 13060,
+      "timestampMs": 12940,
+      "confidence": null
+    },
+    {
+      "text": " cubi,",
+      "startMs": 13060,
+      "endMs": 13400,
+      "timestampMs": 13230,
+      "confidence": null
+    },
+    {
+      "text": " gli",
+      "startMs": 13600,
+      "endMs": 13660,
+      "timestampMs": 13630,
+      "confidence": null
+    },
+    {
+      "text": " alberi",
+      "startMs": 13660,
+      "endMs": 13900,
+      "timestampMs": 13780,
+      "confidence": null
+    },
+    {
+      "text": " coni.",
+      "startMs": 13900,
+      "endMs": 14220,
+      "timestampMs": 14060,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Claude",
+      "startMs": 14680,
+      "endMs": 15040,
+      "timestampMs": 14860,
+      "confidence": null
+    },
+    {
+      "text": " scrive",
+      "startMs": 15040,
+      "endMs": 15420,
+      "timestampMs": 15230,
+      "confidence": null
+    },
+    {
+      "text": " la",
+      "startMs": 15420,
+      "endMs": 15540,
+      "timestampMs": 15480,
+      "confidence": null
+    },
+    {
+      "text": " scena",
+      "startMs": 15540,
+      "endMs": 15800,
+      "timestampMs": 15670,
+      "confidence": null
+    },
+    {
+      "text": " con",
+      "startMs": 15800,
+      "endMs": 16000,
+      "timestampMs": 15900,
+      "confidence": null
+    },
+    {
+      "text": " Three.js,",
+      "startMs": 16000,
+      "endMs": 16700,
+      "timestampMs": 16350,
+      "confidence": null
+    },
+    {
+      "text": " e",
+      "startMs": 16980,
+      "endMs": 17200,
+      "timestampMs": 17090,
+      "confidence": null
+    },
+    {
+      "text": " Remotion",
+      "startMs": 17200,
+      "endMs": 17620,
+      "timestampMs": 17410,
+      "confidence": null
+    },
+    {
+      "text": " la",
+      "startMs": 17620,
+      "endMs": 17940,
+      "timestampMs": 17780,
+      "confidence": null
+    },
+    {
+      "text": " trasforma",
+      "startMs": 17940,
+      "endMs": 18420,
+      "timestampMs": 18180,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 18420,
+      "endMs": 18460,
+      "timestampMs": 18440,
+      "confidence": null
+    },
+    {
+      "text": " video.",
+      "startMs": 18460,
+      "endMs": 18700,
+      "timestampMs": 18580,
+      "confidence": null
+    },
+    {
+      "text": " Sul",
+      "startMs": 18940,
+      "endMs": 19100,
+      "timestampMs": 19020,
+      "confidence": null
+    },
+    {
+      "text": " tuo",
+      "startMs": 19100,
+      "endMs": 19440,
+      "timestampMs": 19270,
+      "confidence": null
+    },
+    {
+      "text": " computer,",
+      "startMs": 19440,
+      "endMs": 19720,
+      "timestampMs": 19580,
+      "confidence": null
+    },
+    {
+      "text": " gratis.",
+      "startMs": 20120,
+      "endMs": 20860,
+      "timestampMs": 20490,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Il",
+      "startMs": 21380,
+      "endMs": 21600,
+      "timestampMs": 21490,
+      "confidence": null
+    },
+    {
+      "text": " prompt",
+      "startMs": 21600,
+      "endMs": 21840,
+      "timestampMs": 21720,
+      "confidence": null
+    },
+    {
+      "text": " per",
+      "startMs": 21840,
+      "endMs": 22060,
+      "timestampMs": 21950,
+      "confidence": null
+    },
+    {
+      "text": " partire",
+      "startMs": 22060,
+      "endMs": 22440,
+      "timestampMs": 22250,
+      "confidence": null
+    },
+    {
+      "text": " è",
+      "startMs": 22440,
+      "endMs": 22660,
+      "timestampMs": 22550,
+      "confidence": null
+    },
+    {
+      "text": " nella",
+      "startMs": 22660,
+      "endMs": 22820,
+      "timestampMs": 22740,
+      "confidence": null
+    },
+    {
+      "text": " descrizione,",
+      "startMs": 22820,
+      "endMs": 23440,
+      "timestampMs": 23130,
+      "confidence": null
+    },
+    {
+      "text": " il",
+      "startMs": 23660,
+      "endMs": 23820,
+      "timestampMs": 23740,
+      "confidence": null
+    },
+    {
+      "text": " codice",
+      "startMs": 23820,
+      "endMs": 24180,
+      "timestampMs": 24000,
+      "confidence": null
+    },
+    {
+      "text": " del",
+      "startMs": 24180,
+      "endMs": 24320,
+      "timestampMs": 24250,
+      "confidence": null
+    },
+    {
+      "text": " robot",
+      "startMs": 24320,
+      "endMs": 24560,
+      "timestampMs": 24440,
+      "confidence": null
+    },
+    {
+      "text": " su",
+      "startMs": 24560,
+      "endMs": 24820,
+      "timestampMs": 24690,
+      "confidence": null
+    },
+    {
+      "text": " GitHub.",
+      "startMs": 24820,
+      "endMs": 24980,
+      "timestampMs": 24900,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Mandalo",
+      "startMs": 25620,
+      "endMs": 26060,
+      "timestampMs": 25840,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 26060,
+      "endMs": 26180,
+      "timestampMs": 26120,
+      "confidence": null
+    },
+    {
+      "text": " chi",
+      "startMs": 26180,
+      "endMs": 26260,
+      "timestampMs": 26220,
+      "confidence": null
+    },
+    {
+      "text": " stava",
+      "startMs": 26260,
+      "endMs": 26480,
+      "timestampMs": 26370,
+      "confidence": null
+    },
+    {
+      "text": " per",
+      "startMs": 26480,
+      "endMs": 26640,
+      "timestampMs": 26560,
+      "confidence": null
+    },
+    {
+      "text": " pagare",
+      "startMs": 26640,
+      "endMs": 26980,
+      "timestampMs": 26810,
+      "confidence": null
+    },
+    {
+      "text": " 79",
+      "startMs": 26980,
+      "endMs": 27360,
+      "timestampMs": 27170,
+      "confidence": null
+    },
+    {
+      "text": " euro.",
+      "startMs": 27360,
+      "endMs": 27820,
+      "timestampMs": 27590,
+      "confidence": null
+    }
+  ]
+}
