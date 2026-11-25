@@ -26,6 +26,7 @@ Strumenti in più: [`strumenti/sicurezza/controlla-segreti.py`](strumenti/sicure
 | 02 | 10 stili di animazione con Claude | [`reel-02-dieci-stili`](reel-02-dieci-stili) |
 | 03 | Cancellare una API key da GitHub non basta | [`reel-03-chiavi-api`](reel-03-chiavi-api) |
 | 04 | Cartoni 3D con Claude, senza Blender (la mascotte Bino) | [`reel-04-cartoni-3d`](reel-04-cartoni-3d) |
+| 05 | Smetti di pagare queste 3 app: QR code, unisci PDF, dividi spese | [`reel-05-app-gratis`](reel-05-app-gratis) · **[apri le app](https://binoita.github.io/bino-dev-reels/)** |
 
 ## Come si usa
 

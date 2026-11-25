@@ -1,0 +1,161 @@
+<!doctype html>
+<!-- © 2026 BinoITA (bino.dev, @bino.devs) — CC BY 4.0: se lo riusi, cita "@bino.devs — github.com/BinoITA/bino-dev-reels" -->
+<!-- Unisci PDF (e foto JPG/PNG) in un solo PDF. Tutto succede nel tuo browser: i file non vengono caricati da nessuna parte. -->
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unisci PDF gratis · bino.dev</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+<style>
+  :root { --carta: #F2EEE3; --nero: #141414; --verde: #3FE08F; --giallo: #FFD93D; --rosso: #FF4D4D; --bianco: #FFFDF7; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; color: var(--nero); font-family: "Space Grotesk", system-ui, sans-serif;
+    background: var(--carta) radial-gradient(#14141418 1.2px, transparent 1.2px) 0 0 / 22px 22px;
+    display: flex; justify-content: center; padding: 32px 16px;
+  }
+  main { width: 100%; max-width: 620px; }
+  h1 { font-size: 40px; line-height: 1.05; margin: 0 0 6px; }
+  h1 mark { background: var(--verde); padding: 0 6px; }
+  .sotto { margin: 0 0 24px; font-size: 17px; }
+  .adesivo { display: inline-block; font: 700 14px "JetBrains Mono", monospace; letter-spacing: 1px; background: var(--giallo); border: 3px solid var(--nero); border-radius: 999px; padding: 4px 12px; transform: rotate(-2deg); margin-bottom: 14px; }
+  .scheda { background: var(--bianco); border: 4px solid var(--nero); border-radius: 18px; box-shadow: 8px 8px 0 var(--nero); padding: 22px; margin-bottom: 22px; }
+  #zona {
+    border: 4px dashed var(--nero); border-radius: 14px; padding: 34px 16px; text-align: center; cursor: pointer;
+    font-weight: 700; font-size: 20px; background: #fff;
+  }
+  #zona.sopra { background: var(--verde); }
+  #zona small { display: block; font-weight: 500; font-size: 15px; margin-top: 6px; }
+  ol { list-style: none; padding: 0; margin: 18px 0 0; }
+  li {
+    display: flex; align-items: center; gap: 10px; padding: 10px 12px; margin-bottom: 10px;
+    border: 3px solid var(--nero); border-radius: 12px; background: #fff;
+  }
+  li .num { font: 700 15px "JetBrains Mono", monospace; background: var(--giallo); border: 2px solid var(--nero); border-radius: 999px; width: 32px; height: 32px; display: grid; place-items: center; flex: none; }
+  li .nome { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 700; }
+  li .info { font: 500 13px "JetBrains Mono", monospace; flex: none; }
+  li button { width: 36px; height: 36px; border: 2px solid var(--nero); border-radius: 10px; background: var(--bianco); font-size: 17px; cursor: pointer; flex: none; }
+  li button:disabled { opacity: 0.3; cursor: default; }
+  #unisci {
+    width: 100%; font: 700 20px "Space Grotesk", sans-serif; padding: 16px; cursor: pointer; margin-top: 8px;
+    border: 4px solid var(--nero); border-radius: 999px; background: var(--verde); box-shadow: 5px 5px 0 var(--nero);
+  }
+  #unisci:disabled { background: #ddd; cursor: default; }
+  #unisci:active:not(:disabled) { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--nero); }
+  .nota { font-size: 15px; margin: 14px 0 0; }
+  .errore { color: var(--rosso); font-weight: 700; }
+  footer { font-size: 14px; text-align: center; }
+  footer a { color: var(--nero); }
+</style>
+</head>
+<body>
+<main>
+  <span class="adesivo">I FILE RESTANO SUL TUO PC</span>
+  <h1>Unisci i <mark>PDF</mark>, gratis</h1>
+  <p class="sotto">Niente caricamenti, niente limiti al giorno, niente account. Funziona anche con le foto (JPG e PNG).</p>
+
+  <div class="scheda">
+    <div id="zona">Trascina qui PDF e foto<small>oppure tocca per sceglierli</small></div>
+    <input type="file" id="scegli" accept="application/pdf,image/jpeg,image/png" multiple hidden>
+    <ol id="lista"></ol>
+    <button id="unisci" disabled>Unisci e scarica</button>
+    <p id="stato" class="nota">Puoi cambiare l'ordine con le frecce.</p>
+  </div>
+
+  <footer>Fatto con Claude da <a href="https://www.instagram.com/bino.devs/">@bino.devs</a> · codice su <a href="https://github.com/BinoITA/bino-dev-reels">github.com/BinoITA/bino-dev-reels</a></footer>
+</main>
+
+<script>
+  const $ = (id) => document.getElementById(id);
+  const { PDFDocument } = PDFLib;
+  let file = []; // { nome, tipo, byte, pagine }
+
+  const peso = (n) => (n > 1048576 ? (n / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(n / 1024)) + " KB");
+
+  async function aggiungi(elenco) {
+    for (const f of elenco) {
+      const tipo = f.type === "application/pdf" || f.name.toLowerCase().endsWith(".pdf") ? "pdf" : f.type === "image/png" ? "png" : f.type === "image/jpeg" ? "jpg" : null;
+      if (!tipo) {
+        $("stato").innerHTML = `<span class="errore">${f.name}: formato non supportato.</span>`;
+        continue;
+      }
+      const byte = new Uint8Array(await f.arrayBuffer());
+      let pagine = 1;
+      if (tipo === "pdf") {
+        try {
+          pagine = (await PDFDocument.load(byte, { ignoreEncryption: true })).getPageCount();
+        } catch (e) {
+          $("stato").innerHTML = `<span class="errore">${f.name}: PDF rovinato o protetto da password.</span>`;
+          continue;
+        }
+      }
+      file.push({ nome: f.name, tipo, byte, pagine, peso: f.size });
+    }
+    disegna();
+  }
+
+  function disegna() {
+    const ol = $("lista");
+    ol.innerHTML = "";
+    file.forEach((f, i) => {
+      const li = document.createElement("li");
+      const info = f.tipo === "pdf" ? `${f.pagine} pag. · ${peso(f.peso)}` : `foto · ${peso(f.peso)}`;
+      li.innerHTML = `<span class="num">${i + 1}</span><span class="nome"></span><span class="info">${info}</span>` +
+        `<button title="Su" ${i === 0 ? "disabled" : ""}>↑</button><button title="Giù" ${i === file.length - 1 ? "disabled" : ""}>↓</button><button title="Togli">✕</button>`;
+      li.querySelector(".nome").textContent = f.nome;
+      const [su, giu, togli] = li.querySelectorAll("button");
+      su.onclick = () => { [file[i - 1], file[i]] = [file[i], file[i - 1]]; disegna(); };
+      giu.onclick = () => { [file[i + 1], file[i]] = [file[i], file[i + 1]]; disegna(); };
+      togli.onclick = () => { file.splice(i, 1); disegna(); };
+      ol.appendChild(li);
+    });
+    const tot = file.reduce((s, f) => s + f.pagine, 0);
+    $("unisci").disabled = file.length < 1;
+    $("unisci").textContent = file.length ? `Unisci ${tot} pagine e scarica` : "Unisci e scarica";
+  }
+
+  $("unisci").onclick = async () => {
+    $("unisci").disabled = true;
+    $("stato").textContent = "Sto unendo…";
+    try {
+      const fuori = await PDFDocument.create();
+      for (const f of file) {
+        if (f.tipo === "pdf") {
+          const dentro = await PDFDocument.load(f.byte, { ignoreEncryption: true });
+          const pagine = await fuori.copyPages(dentro, dentro.getPageIndices());
+          pagine.forEach((p) => fuori.addPage(p));
+        } else {
+          // Le foto diventano una pagina A4 ciascuna, centrate e senza deformarle.
+          const img = f.tipo === "png" ? await fuori.embedPng(f.byte) : await fuori.embedJpg(f.byte);
+          const [w, h] = img.width > img.height ? [841.89, 595.28] : [595.28, 841.89];
+          const scala = Math.min((w - 40) / img.width, (h - 40) / img.height, 1);
+          const pagina = fuori.addPage([w, h]);
+          pagina.drawImage(img, { x: (w - img.width * scala) / 2, y: (h - img.height * scala) / 2, width: img.width * scala, height: img.height * scala });
+        }
+      }
+      const byte = await fuori.save();
+      const url = URL.createObjectURL(new Blob([byte], { type: "application/pdf" }));
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "uniti.pdf";
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(url), 2000);
+      $("stato").textContent = `Fatto: ${fuori.getPageCount()} pagine in uniti.pdf.`;
+    } catch (e) {
+      $("stato").innerHTML = `<span class="errore">Qualcosa non va: ${e.message}</span>`;
+    }
+    $("unisci").disabled = false;
+  };
+
+  const zona = $("zona");
+  zona.onclick = () => $("scegli").click();
+  $("scegli").onchange = (e) => { aggiungi(e.target.files); e.target.value = ""; };
+  zona.addEventListener("dragover", (e) => { e.preventDefault(); zona.classList.add("sopra"); });
+  zona.addEventListener("dragleave", () => zona.classList.remove("sopra"));
+  zona.addEventListener("drop", (e) => { e.preventDefault(); zona.classList.remove("sopra"); aggiungi(e.dataTransfer.files); });
+</script>
+</body>
+</html>

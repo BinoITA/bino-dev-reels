@@ -1,0 +1,59 @@
+<!doctype html>
+<!-- © 2026 BinoITA (bino.dev, @bino.devs) — CC BY 4.0: se lo riusi, cita "@bino.devs — github.com/BinoITA/bino-dev-reels" -->
+<!-- Pagina iniziale di GitHub Pages: le app gratis dei reel, da aprire anche dal telefono. -->
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>App gratis · bino.dev</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --carta: #F2EEE3; --nero: #141414; --verde: #3FE08F; --giallo: #FFD93D; --bianco: #FFFDF7; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; color: var(--nero); font-family: "Space Grotesk", system-ui, sans-serif;
+    background: var(--carta) radial-gradient(#14141418 1.2px, transparent 1.2px) 0 0 / 22px 22px;
+    display: flex; justify-content: center; padding: 32px 16px;
+  }
+  main { width: 100%; max-width: 560px; }
+  .adesivo { display: inline-block; font: 700 14px "JetBrains Mono", monospace; letter-spacing: 1px; background: var(--giallo); border: 3px solid var(--nero); border-radius: 999px; padding: 4px 12px; transform: rotate(-2deg); margin-bottom: 14px; }
+  h1 { font-size: 42px; line-height: 1.05; margin: 0 0 8px; }
+  h1 mark { background: var(--verde); padding: 0 6px; }
+  .sotto { margin: 0 0 26px; font-size: 17px; }
+  a.app {
+    display: flex; align-items: center; gap: 16px; text-decoration: none; color: var(--nero);
+    background: var(--bianco); border: 4px solid var(--nero); border-radius: 18px; box-shadow: 7px 7px 0 var(--nero);
+    padding: 18px 20px; margin-bottom: 20px;
+  }
+  a.app:active { transform: translate(3px, 3px); box-shadow: 4px 4px 0 var(--nero); }
+  .icona { font-size: 34px; width: 56px; height: 56px; flex: none; display: grid; place-items: center; background: var(--verde); border: 3px solid var(--nero); border-radius: 14px; }
+  .nome { font-weight: 700; font-size: 22px; }
+  .cosa { font-size: 15px; margin-top: 2px; }
+  footer { font-size: 14px; text-align: center; margin-top: 30px; }
+  footer a { color: var(--nero); }
+</style>
+</head>
+<body>
+<main>
+  <span class="adesivo">GRATIS · NIENTE ACCOUNT</span>
+  <h1>Le app di <mark>bino.dev</mark></h1>
+  <p class="sotto">Rifatte con Claude e regalate. Funzionano nel browser, anche dal telefono.</p>
+
+  <a class="app" href="reel-05-app-gratis/app/qr.html">
+    <span class="icona">▦</span>
+    <span><div class="nome">QR code che non scade</div><div class="cosa">Il link è dentro il disegno. PNG e SVG.</div></span>
+  </a>
+  <a class="app" href="reel-05-app-gratis/app/pdf.html">
+    <span class="icona">⧉</span>
+    <span><div class="nome">Unisci PDF e foto</div><div class="cosa">Nel tuo browser: i file non vengono caricati.</div></span>
+  </a>
+  <a class="app" href="reel-05-app-gratis/app/spese.html">
+    <span class="icona">€</span>
+    <span><div class="nome">Dividi le spese</div><div class="cosa">Spese illimitate, il minimo di bonifici.</div></span>
+  </a>
+
+  <footer>Codice su <a href="https://github.com/BinoITA/bino-dev-reels">github.com/BinoITA/bino-dev-reels</a> · <a href="https://www.instagram.com/bino.devs/">@bino.devs</a></footer>
+</main>
+</body>
+</html>

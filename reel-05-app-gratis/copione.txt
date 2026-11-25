@@ -1,0 +1,11 @@
+Smetti di pagare queste tre app. Claude te le rifà gratis.
+
+Uno: il QR code. Molti siti lo fanno scadere quando finisce la prova. Questo ha il link dentro il disegno: non scade mai.
+
+Due: unire i PDF. Qui i file non vengono caricati da nessuna parte: restano sul tuo computer.
+
+Tre: dividere le spese. Spese illimitate, e ti dice chi dà quanto a chi, con il minimo di bonifici.
+
+Sono tre file: li apri e funzionano. Link e prompt in didascalia.
+
+Mandalo a chi sta per pagare un abbonamento per fare un QR.

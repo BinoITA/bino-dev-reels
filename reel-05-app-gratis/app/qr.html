@@ -1,0 +1,191 @@
+<!doctype html>
+<!-- © 2026 BinoITA (bino.dev, @bino.devs) — CC BY 4.0: se lo riusi, cita "@bino.devs — github.com/BinoITA/bino-dev-reels" -->
+<!-- Generatore di QR code statici: il link è dentro il disegno, quindi non scade mai. Nessun account, nessun abbonamento. -->
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QR code gratis · bino.dev</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
+<style>
+  :root { --carta: #F2EEE3; --nero: #141414; --verde: #3FE08F; --giallo: #FFD93D; --rosso: #FF4D4D; --bianco: #FFFDF7; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; color: var(--nero); font-family: "Space Grotesk", system-ui, sans-serif;
+    background: var(--carta) radial-gradient(#14141418 1.2px, transparent 1.2px) 0 0 / 22px 22px;
+    display: flex; justify-content: center; padding: 32px 16px;
+  }
+  main { width: 100%; max-width: 560px; }
+  h1 { font-size: 40px; line-height: 1.05; margin: 0 0 6px; }
+  h1 mark { background: var(--verde); padding: 0 6px; }
+  .sotto { margin: 0 0 24px; font-size: 17px; }
+  .scheda { background: var(--bianco); border: 4px solid var(--nero); border-radius: 18px; box-shadow: 8px 8px 0 var(--nero); padding: 22px; margin-bottom: 22px; }
+  label { display: block; font-weight: 700; margin: 0 0 8px; }
+  textarea, input[type="text"] {
+    width: 100%; font: 500 18px "JetBrains Mono", monospace; padding: 12px 14px;
+    border: 3px solid var(--nero); border-radius: 12px; background: #fff; resize: vertical;
+  }
+  .riga { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 16px; align-items: end; }
+  .riga > div { flex: 1; min-width: 120px; }
+  input[type="color"] { width: 100%; height: 46px; border: 3px solid var(--nero); border-radius: 12px; padding: 2px; background: #fff; }
+  select { width: 100%; height: 46px; font: 700 16px "Space Grotesk", sans-serif; border: 3px solid var(--nero); border-radius: 12px; background: #fff; padding: 0 10px; }
+  #anteprima { display: flex; justify-content: center; padding: 10px 0 4px; }
+  canvas { width: 280px; height: 280px; image-rendering: pixelated; border: 3px solid var(--nero); border-radius: 12px; }
+  .bottoni { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
+  button {
+    flex: 1; min-width: 150px; font: 700 18px "Space Grotesk", sans-serif; padding: 14px 16px; cursor: pointer;
+    border: 4px solid var(--nero); border-radius: 999px; background: var(--verde); box-shadow: 5px 5px 0 var(--nero);
+  }
+  button.secondario { background: var(--giallo); }
+  button:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--nero); }
+  .nota { font-size: 15px; margin: 14px 0 0; }
+  .adesivo { display: inline-block; font: 700 14px "JetBrains Mono", monospace; letter-spacing: 1px; background: var(--giallo); border: 3px solid var(--nero); border-radius: 999px; padding: 4px 12px; transform: rotate(-2deg); margin-bottom: 14px; }
+  .errore { color: var(--rosso); font-weight: 700; }
+  footer { font-size: 14px; text-align: center; }
+  footer a { color: var(--nero); }
+</style>
+</head>
+<body>
+<main>
+  <span class="adesivo">GRATIS · PER SEMPRE</span>
+  <h1>Il tuo <mark>QR code</mark>, che non scade</h1>
+  <p class="sotto">Il link è scritto dentro il disegno: nessun sito in mezzo, nessuna prova gratuita che finisce.</p>
+
+  <div class="scheda">
+    <label for="testo">Link o testo</label>
+    <textarea id="testo" rows="2">https://www.instagram.com/bino.devs/</textarea>
+    <div class="riga">
+      <div><label for="colore">Colore</label><input type="color" id="colore" value="#141414"></div>
+      <div><label for="sfondo">Sfondo</label><input type="color" id="sfondo" value="#FFFFFF"></div>
+      <div>
+        <label for="correzione">Resistenza</label>
+        <select id="correzione">
+          <option value="L">Bassa</option>
+          <option value="M" selected>Media</option>
+          <option value="Q">Alta</option>
+          <option value="H">Massima</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="scheda">
+    <div id="anteprima"><canvas id="tela" width="280" height="280"></canvas></div>
+    <p id="stato" class="nota"></p>
+    <div class="bottoni">
+      <button id="png">Scarica PNG</button>
+      <button id="svg" class="secondario">Scarica SVG</button>
+    </div>
+    <p class="nota">Il PNG è grande (1200 px), va bene anche per la stampa. L'SVG si ingrandisce senza perdere qualità.
+      <b>Prima di stampare</b>, inquadralo con il telefono per provarlo.</p>
+  </div>
+
+  <footer>Fatto con Claude da <a href="https://www.instagram.com/bino.devs/">@bino.devs</a> · codice su <a href="https://github.com/BinoITA/bino-dev-reels">github.com/BinoITA/bino-dev-reels</a></footer>
+</main>
+
+<script>
+  const $ = (id) => document.getElementById(id);
+  let qr = null;
+
+  // Crea il QR (versione scelta in automatico) con testo in UTF-8, così funzionano anche accenti ed emoji.
+  function creaQr() {
+    const testo = $("testo").value.trim();
+    if (!testo) return null;
+    qrcode.stringToBytes = qrcode.stringToBytesFuncs["UTF-8"];
+    const q = qrcode(0, $("correzione").value);
+    q.addData(testo, "Byte");
+    q.make();
+    return q;
+  }
+
+  // Disegna il QR su un canvas: "margine" moduli di bordo bianco, come chiede lo standard (almeno 4).
+  function disegna(canvas, lato) {
+    const n = qr.getModuleCount();
+    const margine = 4;
+    const cella = lato / (n + margine * 2);
+    const ctx = canvas.getContext("2d");
+    canvas.width = lato;
+    canvas.height = lato;
+    ctx.fillStyle = $("sfondo").value;
+    ctx.fillRect(0, 0, lato, lato);
+    ctx.fillStyle = $("colore").value;
+    for (let r = 0; r < n; r++) {
+      for (let c = 0; c < n; c++) {
+        if (qr.isDark(r, c)) {
+          const x = Math.floor((c + margine) * cella);
+          const y = Math.floor((r + margine) * cella);
+          ctx.fillRect(x, y, Math.ceil((c + margine + 1) * cella) - x, Math.ceil((r + margine + 1) * cella) - y);
+        }
+      }
+    }
+  }
+
+  function svg() {
+    const n = qr.getModuleCount();
+    const m = 4;
+    const lato = n + m * 2;
+    let d = "";
+    for (let r = 0; r < n; r++) for (let c = 0; c < n; c++) if (qr.isDark(r, c)) d += `M${c + m} ${r + m}h1v1h-1z`;
+    return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${lato} ${lato}" shape-rendering="crispEdges">` +
+      `<rect width="${lato}" height="${lato}" fill="${$("sfondo").value}"/><path d="${d}" fill="${$("colore").value}"/></svg>`;
+  }
+
+  // Avviso se i colori sono troppo simili: molti lettori non leggono un QR chiaro su chiaro.
+  function contrasto(a, b) {
+    const lum = (hex) => {
+      const v = [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16) / 255).map((x) => (x <= 0.03928 ? x / 12.92 : ((x + 0.055) / 1.055) ** 2.4));
+      return 0.2126 * v[0] + 0.7152 * v[1] + 0.0722 * v[2];
+    };
+    const [l1, l2] = [lum(a), lum(b)].sort((x, y) => y - x);
+    return (l1 + 0.05) / (l2 + 0.05);
+  }
+
+  function aggiorna() {
+    if (typeof qrcode === "undefined") {
+      $("stato").innerHTML = '<span class="errore">Non riesco a caricare la libreria del QR: controlla la connessione e ricarica la pagina.</span>';
+      return;
+    }
+    try {
+      qr = creaQr();
+    } catch (e) {
+      qr = null;
+      $("stato").innerHTML = '<span class="errore">Testo troppo lungo per un QR code.</span>';
+      return;
+    }
+    if (!qr) {
+      $("stato").innerHTML = '<span class="errore">Scrivi un link o un testo.</span>';
+      return;
+    }
+    disegna($("tela"), 280);
+    const c = contrasto($("colore").value, $("sfondo").value);
+    $("stato").innerHTML = c < 4
+      ? '<span class="errore">Colori poco diversi: alcuni telefoni potrebbero non leggerlo.</span>'
+      : `Pronto: ${qr.getModuleCount()}×${qr.getModuleCount()} quadratini.`;
+  }
+
+  function scarica(nome, url) {
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = nome;
+    a.click();
+  }
+
+  $("png").onclick = () => {
+    if (!qr) return;
+    const grande = document.createElement("canvas");
+    disegna(grande, 1200);
+    scarica("qr-code.png", grande.toDataURL("image/png"));
+  };
+  $("svg").onclick = () => {
+    if (!qr) return;
+    const url = URL.createObjectURL(new Blob([svg()], { type: "image/svg+xml" }));
+    scarica("qr-code.svg", url);
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+  ["testo", "colore", "sfondo", "correzione"].forEach((id) => $(id).addEventListener("input", aggiorna));
+  aggiorna();
+</script>
+</body>
+</html>

@@ -1,0 +1,706 @@
+{
+  "durataMs": 30630,
+  "paragrafi": [
+    {
+      "indice": 0,
+      "testo": "Smetti di pagare queste tre app. Claude te le rifà gratis.",
+      "startMs": 0,
+      "endMs": 3820
+    },
+    {
+      "indice": 1,
+      "testo": "Uno: il QR code. Molti siti lo fanno scadere quando finisce la prova. Questo ha il link dentro il disegno: non scade mai.",
+      "startMs": 4160,
+      "endMs": 11120
+    },
+    {
+      "indice": 2,
+      "testo": "Due: unire i PDF. Qui i file non vengono caricati da nessuna parte: restano sul tuo computer.",
+      "startMs": 11800,
+      "endMs": 17100
+    },
+    {
+      "indice": 3,
+      "testo": "Tre: dividere le spese. Spese illimitate, e ti dice chi dà quanto a chi, con il minimo di bonifici.",
+      "startMs": 17860,
+      "endMs": 23280
+    },
+    {
+      "indice": 4,
+      "testo": "Sono tre file: li apri e funzionano. Link e prompt in didascalia.",
+      "startMs": 23620,
+      "endMs": 27300
+    },
+    {
+      "indice": 5,
+      "testo": "Mandalo a chi sta per pagare un abbonamento per fare un QR.",
+      "startMs": 27700,
+      "endMs": 30120
+    }
+  ],
+  "captions": [
+    {
+      "text": "Smetti",
+      "startMs": 0,
+      "endMs": 660,
+      "timestampMs": 330,
+      "confidence": null
+    },
+    {
+      "text": " di",
+      "startMs": 660,
+      "endMs": 800,
+      "timestampMs": 730,
+      "confidence": null
+    },
+    {
+      "text": " pagare",
+      "startMs": 800,
+      "endMs": 1140,
+      "timestampMs": 970,
+      "confidence": null
+    },
+    {
+      "text": " queste",
+      "startMs": 1140,
+      "endMs": 1380,
+      "timestampMs": 1260,
+      "confidence": null
+    },
+    {
+      "text": " tre",
+      "startMs": 1380,
+      "endMs": 1640,
+      "timestampMs": 1510,
+      "confidence": null
+    },
+    {
+      "text": " app.",
+      "startMs": 1640,
+      "endMs": 1860,
+      "timestampMs": 1750,
+      "confidence": null
+    },
+    {
+      "text": " Claude",
+      "startMs": 2160,
+      "endMs": 2580,
+      "timestampMs": 2370,
+      "confidence": null
+    },
+    {
+      "text": " te",
+      "startMs": 2580,
+      "endMs": 2840,
+      "timestampMs": 2710,
+      "confidence": null
+    },
+    {
+      "text": " le",
+      "startMs": 2840,
+      "endMs": 2860,
+      "timestampMs": 2850,
+      "confidence": null
+    },
+    {
+      "text": " rifà",
+      "startMs": 2860,
+      "endMs": 3140,
+      "timestampMs": 3000,
+      "confidence": null
+    },
+    {
+      "text": " gratis.",
+      "startMs": 3140,
+      "endMs": 3820,
+      "timestampMs": 3480,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Uno:",
+      "startMs": 4160,
+      "endMs": 4420,
+      "timestampMs": 4290,
+      "confidence": null
+    },
+    {
+      "text": " il",
+      "startMs": 4800,
+      "endMs": 4900,
+      "timestampMs": 4850,
+      "confidence": null
+    },
+    {
+      "text": " QR",
+      "startMs": 4900,
+      "endMs": 5120,
+      "timestampMs": 5010,
+      "confidence": null
+    },
+    {
+      "text": " code.",
+      "startMs": 5120,
+      "endMs": 5460,
+      "timestampMs": 5290,
+      "confidence": null
+    },
+    {
+      "text": " Molti",
+      "startMs": 5920,
+      "endMs": 6260,
+      "timestampMs": 6090,
+      "confidence": null
+    },
+    {
+      "text": " siti",
+      "startMs": 6260,
+      "endMs": 6500,
+      "timestampMs": 6380,
+      "confidence": null
+    },
+    {
+      "text": " lo",
+      "startMs": 6500,
+      "endMs": 6620,
+      "timestampMs": 6560,
+      "confidence": null
+    },
+    {
+      "text": " fanno",
+      "startMs": 6620,
+      "endMs": 6780,
+      "timestampMs": 6700,
+      "confidence": null
+    },
+    {
+      "text": " scadere",
+      "startMs": 6780,
+      "endMs": 7100,
+      "timestampMs": 6940,
+      "confidence": null
+    },
+    {
+      "text": " quando",
+      "startMs": 7100,
+      "endMs": 7280,
+      "timestampMs": 7190,
+      "confidence": null
+    },
+    {
+      "text": " finisce",
+      "startMs": 7280,
+      "endMs": 7700,
+      "timestampMs": 7490,
+      "confidence": null
+    },
+    {
+      "text": " la",
+      "startMs": 7700,
+      "endMs": 7780,
+      "timestampMs": 7740,
+      "confidence": null
+    },
+    {
+      "text": " prova.",
+      "startMs": 7780,
+      "endMs": 8000,
+      "timestampMs": 7890,
+      "confidence": null
+    },
+    {
+      "text": " Questo",
+      "startMs": 8340,
+      "endMs": 8540,
+      "timestampMs": 8440,
+      "confidence": null
+    },
+    {
+      "text": " ha",
+      "startMs": 8540,
+      "endMs": 8740,
+      "timestampMs": 8640,
+      "confidence": null
+    },
+    {
+      "text": " il",
+      "startMs": 8740,
+      "endMs": 8960,
+      "timestampMs": 8850,
+      "confidence": null
+    },
+    {
+      "text": " link",
+      "startMs": 8960,
+      "endMs": 9180,
+      "timestampMs": 9070,
+      "confidence": null
+    },
+    {
+      "text": " dentro",
+      "startMs": 9180,
+      "endMs": 9640,
+      "timestampMs": 9410,
+      "confidence": null
+    },
+    {
+      "text": " il",
+      "startMs": 9640,
+      "endMs": 9820,
+      "timestampMs": 9730,
+      "confidence": null
+    },
+    {
+      "text": " disegno:",
+      "startMs": 9820,
+      "endMs": 10300,
+      "timestampMs": 10060,
+      "confidence": null
+    },
+    {
+      "text": " non",
+      "startMs": 10520,
+      "endMs": 10600,
+      "timestampMs": 10560,
+      "confidence": null
+    },
+    {
+      "text": " scade",
+      "startMs": 10600,
+      "endMs": 10860,
+      "timestampMs": 10730,
+      "confidence": null
+    },
+    {
+      "text": " mai.",
+      "startMs": 10860,
+      "endMs": 11120,
+      "timestampMs": 10990,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Due:",
+      "startMs": 11800,
+      "endMs": 12000,
+      "timestampMs": 11900,
+      "confidence": null
+    },
+    {
+      "text": " unire",
+      "startMs": 12420,
+      "endMs": 12740,
+      "timestampMs": 12580,
+      "confidence": null
+    },
+    {
+      "text": " i",
+      "startMs": 12740,
+      "endMs": 12860,
+      "timestampMs": 12800,
+      "confidence": null
+    },
+    {
+      "text": " PDF.",
+      "startMs": 12860,
+      "endMs": 13100,
+      "timestampMs": 12980,
+      "confidence": null
+    },
+    {
+      "text": " Qui",
+      "startMs": 13680,
+      "endMs": 13900,
+      "timestampMs": 13790,
+      "confidence": null
+    },
+    {
+      "text": " i",
+      "startMs": 13900,
+      "endMs": 14140,
+      "timestampMs": 14020,
+      "confidence": null
+    },
+    {
+      "text": " file",
+      "startMs": 14140,
+      "endMs": 14200,
+      "timestampMs": 14170,
+      "confidence": null
+    },
+    {
+      "text": " non",
+      "startMs": 14200,
+      "endMs": 14460,
+      "timestampMs": 14330,
+      "confidence": null
+    },
+    {
+      "text": " vengono",
+      "startMs": 14460,
+      "endMs": 14680,
+      "timestampMs": 14570,
+      "confidence": null
+    },
+    {
+      "text": " caricati",
+      "startMs": 14680,
+      "endMs": 15100,
+      "timestampMs": 14890,
+      "confidence": null
+    },
+    {
+      "text": " da",
+      "startMs": 15100,
+      "endMs": 15260,
+      "timestampMs": 15180,
+      "confidence": null
+    },
+    {
+      "text": " nessuna",
+      "startMs": 15260,
+      "endMs": 15540,
+      "timestampMs": 15400,
+      "confidence": null
+    },
+    {
+      "text": " parte:",
+      "startMs": 15540,
+      "endMs": 15820,
+      "timestampMs": 15680,
+      "confidence": null
+    },
+    {
+      "text": " restano",
+      "startMs": 16140,
+      "endMs": 16460,
+      "timestampMs": 16300,
+      "confidence": null
+    },
+    {
+      "text": " sul",
+      "startMs": 16460,
+      "endMs": 16660,
+      "timestampMs": 16560,
+      "confidence": null
+    },
+    {
+      "text": " tuo",
+      "startMs": 16660,
+      "endMs": 16900,
+      "timestampMs": 16780,
+      "confidence": null
+    },
+    {
+      "text": " computer.",
+      "startMs": 16900,
+      "endMs": 17100,
+      "timestampMs": 17000,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Tre:",
+      "startMs": 17860,
+      "endMs": 18100,
+      "timestampMs": 17980,
+      "confidence": null
+    },
+    {
+      "text": " dividere",
+      "startMs": 18480,
+      "endMs": 18740,
+      "timestampMs": 18610,
+      "confidence": null
+    },
+    {
+      "text": " le",
+      "startMs": 18740,
+      "endMs": 18860,
+      "timestampMs": 18800,
+      "confidence": null
+    },
+    {
+      "text": " spese.",
+      "startMs": 18860,
+      "endMs": 19100,
+      "timestampMs": 18980,
+      "confidence": null
+    },
+    {
+      "text": " Spese",
+      "startMs": 19340,
+      "endMs": 19600,
+      "timestampMs": 19470,
+      "confidence": null
+    },
+    {
+      "text": " illimitate,",
+      "startMs": 19600,
+      "endMs": 20040,
+      "timestampMs": 19820,
+      "confidence": null
+    },
+    {
+      "text": " e",
+      "startMs": 20360,
+      "endMs": 20420,
+      "timestampMs": 20390,
+      "confidence": null
+    },
+    {
+      "text": " ti",
+      "startMs": 20420,
+      "endMs": 20520,
+      "timestampMs": 20470,
+      "confidence": null
+    },
+    {
+      "text": " dice",
+      "startMs": 20520,
+      "endMs": 20720,
+      "timestampMs": 20620,
+      "confidence": null
+    },
+    {
+      "text": " chi",
+      "startMs": 20720,
+      "endMs": 21040,
+      "timestampMs": 20880,
+      "confidence": null
+    },
+    {
+      "text": " dà",
+      "startMs": 21040,
+      "endMs": 21280,
+      "timestampMs": 21160,
+      "confidence": null
+    },
+    {
+      "text": " quanto",
+      "startMs": 21280,
+      "endMs": 21520,
+      "timestampMs": 21400,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 21520,
+      "endMs": 21740,
+      "timestampMs": 21630,
+      "confidence": null
+    },
+    {
+      "text": " chi,",
+      "startMs": 21740,
+      "endMs": 21880,
+      "timestampMs": 21810,
+      "confidence": null
+    },
+    {
+      "text": " con",
+      "startMs": 22040,
+      "endMs": 22140,
+      "timestampMs": 22090,
+      "confidence": null
+    },
+    {
+      "text": " il",
+      "startMs": 22140,
+      "endMs": 22300,
+      "timestampMs": 22220,
+      "confidence": null
+    },
+    {
+      "text": " minimo",
+      "startMs": 22300,
+      "endMs": 22700,
+      "timestampMs": 22500,
+      "confidence": null
+    },
+    {
+      "text": " di",
+      "startMs": 22700,
+      "endMs": 22780,
+      "timestampMs": 22740,
+      "confidence": null
+    },
+    {
+      "text": " bonifici.",
+      "startMs": 22780,
+      "endMs": 23280,
+      "timestampMs": 23030,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Sono",
+      "startMs": 23620,
+      "endMs": 23800,
+      "timestampMs": 23710,
+      "confidence": null
+    },
+    {
+      "text": " tre",
+      "startMs": 23800,
+      "endMs": 23980,
+      "timestampMs": 23890,
+      "confidence": null
+    },
+    {
+      "text": " file:",
+      "startMs": 23980,
+      "endMs": 24280,
+      "timestampMs": 24130,
+      "confidence": null
+    },
+    {
+      "text": " li",
+      "startMs": 24520,
+      "endMs": 24600,
+      "timestampMs": 24560,
+      "confidence": null
+    },
+    {
+      "text": " apri",
+      "startMs": 24600,
+      "endMs": 24880,
+      "timestampMs": 24740,
+      "confidence": null
+    },
+    {
+      "text": " e",
+      "startMs": 24880,
+      "endMs": 25000,
+      "timestampMs": 24940,
+      "confidence": null
+    },
+    {
+      "text": " funzionano.",
+      "startMs": 25000,
+      "endMs": 25500,
+      "timestampMs": 25250,
+      "confidence": null
+    },
+    {
+      "text": " Link",
+      "startMs": 25760,
+      "endMs": 26180,
+      "timestampMs": 25970,
+      "confidence": null
+    },
+    {
+      "text": " e",
+      "startMs": 26180,
+      "endMs": 26480,
+      "timestampMs": 26330,
+      "confidence": null
+    },
+    {
+      "text": " prompt",
+      "startMs": 26480,
+      "endMs": 26680,
+      "timestampMs": 26580,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 26680,
+      "endMs": 26880,
+      "timestampMs": 26780,
+      "confidence": null
+    },
+    {
+      "text": " didascalia.",
+      "startMs": 26880,
+      "endMs": 27300,
+      "timestampMs": 27090,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Mandalo",
+      "startMs": 27700,
+      "endMs": 28160,
+      "timestampMs": 27930,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 28160,
+      "endMs": 28240,
+      "timestampMs": 28200,
+      "confidence": null
+    },
+    {
+      "text": " chi",
+      "startMs": 28240,
+      "endMs": 28320,
+      "timestampMs": 28280,
+      "confidence": null
+    },
+    {
+      "text": " sta",
+      "startMs": 28320,
+      "endMs": 28460,
+      "timestampMs": 28390,
+      "confidence": null
+    },
+    {
+      "text": " per",
+      "startMs": 28460,
+      "endMs": 28600,
+      "timestampMs": 28530,
+      "confidence": null
+    },
+    {
+      "text": " pagare",
+      "startMs": 28600,
+      "endMs": 28920,
+      "timestampMs": 28760,
+      "confidence": null
+    },
+    {
+      "text": " un",
+      "startMs": 28920,
+      "endMs": 29000,
+      "timestampMs": 28960,
+      "confidence": null
+    },
+    {
+      "text": " abbonamento",
+      "startMs": 29000,
+      "endMs": 29440,
+      "timestampMs": 29220,
+      "confidence": null
+    },
+    {
+      "text": " per",
+      "startMs": 29440,
+      "endMs": 29600,
+      "timestampMs": 29520,
+      "confidence": null
+    },
+    {
+      "text": " fare",
+      "startMs": 29600,
+      "endMs": 29780,
+      "timestampMs": 29690,
+      "confidence": null
+    },
+    {
+      "text": " un",
+      "startMs": 29780,
+      "endMs": 29900,
+      "timestampMs": 29840,
+      "confidence": null
+    },
+    {
+      "text": " QR.",
+      "startMs": 29900,
+      "endMs": 30120,
+      "timestampMs": 30010,
+      "confidence": null
+    }
+  ]
+}

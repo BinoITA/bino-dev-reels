@@ -1,0 +1,28 @@
+3 app che paghi, rifatte gratis con Claude: QR code che non scade, unisci PDF, dividi spese 👇
+Codice e prompt qui sotto, senza commentare niente.
+
+1️⃣ QR code che non scade
+Molti siti fanno QR "dinamici": il QR punta al loro sito, che poi ti rimanda al tuo link. Finita la prova gratuita lo spengono, e il volantino stampato non funziona più. Questo è statico: il link è scritto dentro il disegno, nessuno può spegnerlo. PNG per la stampa e SVG.
+
+2️⃣ Unisci PDF e foto
+Fattura + contratto + foto del documento in un solo PDF. Lavora nel tuo browser: i file non vengono caricati su nessun sito. Niente limiti al giorno.
+
+3️⃣ Dividi le spese
+Vacanza, casa, cena: scrivi chi ha pagato cosa. Ti dice chi dà quanto a chi, al centesimo e con il minimo di bonifici. Spese illimitate, zero pubblicità, riepilogo da incollare nel gruppo.
+
+Sono 3 file HTML: li scarichi, li apri con il browser e funzionano. Niente account, niente installazioni.
+👉 github.com/BinoITA/bino-dev-reels (link in bio), cartella reel-05-app-gratis
+
+I prompt che abbiamo dato a Claude:
+
+QR: "Crea un generatore di QR code in un solo file HTML. QR statico, con il link dentro il codice. Colori a scelta, download PNG da 1200 px e SVG, avviso se i colori sono poco contrastati. Tutto in italiano."
+
+PDF: "Crea in un solo file HTML un'app che unisce PDF e foto JPG/PNG in un unico PDF, tutto nel browser senza caricare i file da nessuna parte (usa pdf-lib). Trascini i file, cambi l'ordine con le frecce, scarichi uniti.pdf."
+
+Spese: "Crea in un solo file HTML un'app per dividere le spese tra amici. Persone, spese con chi ha pagato e tra chi dividerle, conti in centesimi, il minimo di bonifici per andare pari, salvataggio nel browser e un riepilogo da copiare nel gruppo."
+
+Voce e grafica generate con IA. Codice nostro, CC BY 4.0.
+
+📤 Mandalo a chi paga ancora per fare un QR.
+
+#claudeai #intelligenzaartificiale #qrcode #pdf #produttività
