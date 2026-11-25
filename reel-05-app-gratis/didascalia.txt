@@ -10,8 +10,9 @@ Fattura + contratto + foto del documento in un solo PDF. Lavora nel tuo browser:
 3️⃣ Dividi le spese
 Vacanza, casa, cena: scrivi chi ha pagato cosa. Ti dice chi dà quanto a chi, al centesimo e con il minimo di bonifici. Spese illimitate, zero pubblicità, riepilogo da incollare nel gruppo.
 
-Sono 3 file HTML: li scarichi, li apri con il browser e funzionano. Niente account, niente installazioni.
-👉 github.com/BinoITA/bino-dev-reels (link in bio), cartella reel-05-app-gratis
+Si aprono dal telefono o dal computer, senza account e senza installare niente:
+👉 binoita.github.io/bino-dev-reels (link in bio)
+Il codice è su GitHub, cartella reel-05-app-gratis: sono 3 file HTML, puoi anche scaricarli e usarli offline.
 
 I prompt che abbiamo dato a Claude:
 
