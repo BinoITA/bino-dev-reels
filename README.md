@@ -1,5 +1,8 @@
 # bino.dev — il codice dei reel
 
+### 📱 [Apri le app gratis →](https://binoita.github.io/bino-dev-reels/)
+QR code che non scade, unisci PDF, dividi le spese: si aprono dal telefono, senza account.
+
 Qui c'è **tutto il codice** dei reel di [@bino.devs](https://www.instagram.com/bino.devs/) su Instagram.
 Niente "commenta per ricevere": prendi, usa, modifica.
 
