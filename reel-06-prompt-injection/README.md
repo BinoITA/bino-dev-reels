@@ -1,6 +1,6 @@
 # Reel 06: "Un ordine nascosto per la tua AI"
 
-### 🧪 [Prova la tua AI →](https://binoita.github.io/bino-dev-reels/reel-06-prompt-injection/prova-la-tua-ai.html)
+### 🧪 [Prova la tua AI →](https://binoita.github.io/bino-dev-reels/reel-06-prompt-injection/app/prova-la-tua-ai.html)
 
 Reel verticale (1080×1920, 30 fps, 31,7 s) sulla **prompt injection indiretta**: una pagina web, un'email o un file possono contenere ordini nascosti per l'AI che li legge.
 
