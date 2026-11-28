@@ -31,6 +31,7 @@ Strumenti in più: [`strumenti/sicurezza/controlla-segreti.py`](strumenti/sicure
 | 04 | Cartoni 3D con Claude, senza Blender (la mascotte Bino) | [`reel-04-cartoni-3d`](reel-04-cartoni-3d) |
 | 05 | Smetti di pagare queste 3 app: QR code, unisci PDF, dividi spese | [`reel-05-app-gratis`](reel-05-app-gratis) · **[apri le app](https://binoita.github.io/bino-dev-reels/)** |
 | 06 | Un ordine nascosto per la tua AI (prompt injection) | [`reel-06-prompt-injection`](reel-06-prompt-injection) · **[prova la tua AI](https://binoita.github.io/bino-dev-reels/reel-06-prompt-injection/app/prova-la-tua-ai.html)** |
+| 07 | Le 5 frasi che ti dice l'AI (e il prompt anti-complimenti) | [`reel-07-frasi-ai`](reel-07-frasi-ai) |
 
 ## Come si usa
 

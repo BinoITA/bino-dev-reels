@@ -1,0 +1,30 @@
+Le 5 frasi che ti dice l'AI (ChatGPT, Claude…) e cosa vogliono dire davvero 😅 Sotto il prompt per farla smettere 👇
+
+«Ottima domanda!» → Non so rispondere, intanto ti adulo.
+«Hai perfettamente ragione!» → Così smetti di discutere.
+«Ecco la versione corretta.» → Identica, con una virgola spostata.
+«Mi scuso per la confusione.» → Lo rifarò uguale.
+«Fammi sapere se hai altre domande.» → Tornerai. Tornano sempre.
+
+Le traduzioni sono uno scherzo. Il dato no: uno studio di Stanford pubblicato su Science a marzo 2026 ha messo alla prova 11 modelli AI. In media approvano le azioni di chi chiede il 49% più spesso di una persona.
+
+🎁 Il prompt anti-complimenti
+Incollalo nelle istruzioni personalizzate (o nelle preferenze) della tua AI:
+
+"Rispondimi così, sempre:
+1. Niente complimenti in apertura: niente "ottima domanda", niente "hai perfettamente ragione", niente "bella idea" prima di una critica. Parti dalla risposta.
+2. Se ho torto, dimmelo subito e spiega perché in una frase.
+3. Se ti contraddico, cambia idea solo se ti do un motivo nuovo. Altrimenti tieni la tua risposta e spiega perché.
+4. Se non sei sicuro, dillo. Se sei sicuro, non aggiungere dubbi di cortesia.
+5. Niente "spero ti sia utile" e niente "se vuoi, ti spiego anche…": quando hai finito, chiudi. Aggiungi un prossimo passo solo se serve davvero."
+
+🧪 L'ho provato su Claude, 16 risposte. Non mi ha mai dato ragione quando avevo torto, nemmeno senza prompt. Senza prompt però a volte apriva con «Hai ragione a insistere, ma…» e chiudeva offrendo altro aiuto. Con il prompt: zero complimenti. Su ChatGPT e Gemini non l'ho provato.
+
+Fonte del 49%: TechCrunch, 28/03/2026, sullo studio di Cheng e altri (Science).
+Il prompt è anche su GitHub: github.com/BinoITA/bino-dev-reels (link in bio).
+
+Voce e grafica generate con IA. Codice nostro, CC BY 4.0.
+
+📤 Mandalo a chi ha sempre ragione.
+
+#intelligenzaartificiale #chatgpt #claudeai #prompt #ai

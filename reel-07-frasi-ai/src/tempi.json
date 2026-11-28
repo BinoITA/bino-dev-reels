@@ -1,0 +1,608 @@
+{
+  "durataMs": 33680,
+  "paragrafi": [
+    {
+      "indice": 0,
+      "testo": "Nessuno ti traduce le 5 frasi che l'AI ti dice davvero.",
+      "startMs": 0,
+      "endMs": 3440
+    },
+    {
+      "indice": 1,
+      "testo": "«Ottima domanda!» Non so rispondere, intanto ti adulo.",
+      "startMs": 3920,
+      "endMs": 7000
+    },
+    {
+      "indice": 2,
+      "testo": "«Hai perfettamente ragione!» Così smetti di discutere.",
+      "startMs": 7500,
+      "endMs": 10520
+    },
+    {
+      "indice": 3,
+      "testo": "«Ecco la versione corretta.» Identica, con una virgola spostata.",
+      "startMs": 11060,
+      "endMs": 14700
+    },
+    {
+      "indice": 4,
+      "testo": "«Mi scuso per la confusione.» Lo rifarò uguale.",
+      "startMs": 15240,
+      "endMs": 18100
+    },
+    {
+      "indice": 5,
+      "testo": "«Fammi sapere se hai altre domande.» Tornerai. Tornano sempre.",
+      "startMs": 18660,
+      "endMs": 22500
+    },
+    {
+      "indice": 6,
+      "testo": "Stanford, undici AI: ti danno ragione il 49% più spesso di una persona.",
+      "startMs": 23140,
+      "endMs": 27900
+    },
+    {
+      "indice": 7,
+      "testo": "In didascalia il prompt anti-complimenti, gratis.",
+      "startMs": 28480,
+      "endMs": 31700
+    },
+    {
+      "indice": 8,
+      "testo": "Mandalo a chi ha sempre ragione.",
+      "startMs": 32020,
+      "endMs": 33320
+    }
+  ],
+  "captions": [
+    {
+      "text": "Nessuno",
+      "startMs": 0,
+      "endMs": 620,
+      "timestampMs": 310,
+      "confidence": null
+    },
+    {
+      "text": " ti",
+      "startMs": 620,
+      "endMs": 860,
+      "timestampMs": 740,
+      "confidence": null
+    },
+    {
+      "text": " traduce",
+      "startMs": 860,
+      "endMs": 1240,
+      "timestampMs": 1050,
+      "confidence": null
+    },
+    {
+      "text": " le",
+      "startMs": 1240,
+      "endMs": 1360,
+      "timestampMs": 1300,
+      "confidence": null
+    },
+    {
+      "text": " 5",
+      "startMs": 1360,
+      "endMs": 1640,
+      "timestampMs": 1500,
+      "confidence": null
+    },
+    {
+      "text": " frasi",
+      "startMs": 1640,
+      "endMs": 2040,
+      "timestampMs": 1840,
+      "confidence": null
+    },
+    {
+      "text": " che",
+      "startMs": 2040,
+      "endMs": 2200,
+      "timestampMs": 2120,
+      "confidence": null
+    },
+    {
+      "text": " l'AI",
+      "startMs": 2200,
+      "endMs": 2580,
+      "timestampMs": 2390,
+      "confidence": null
+    },
+    {
+      "text": " ti",
+      "startMs": 2580,
+      "endMs": 2880,
+      "timestampMs": 2730,
+      "confidence": null
+    },
+    {
+      "text": " dice",
+      "startMs": 2880,
+      "endMs": 3040,
+      "timestampMs": 2960,
+      "confidence": null
+    },
+    {
+      "text": " davvero.",
+      "startMs": 3040,
+      "endMs": 3440,
+      "timestampMs": 3240,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " «Ottima",
+      "startMs": 3920,
+      "endMs": 4340,
+      "timestampMs": 4130,
+      "confidence": null
+    },
+    {
+      "text": " domanda!»",
+      "startMs": 4340,
+      "endMs": 4720,
+      "timestampMs": 4530,
+      "confidence": null
+    },
+    {
+      "text": " Non",
+      "startMs": 5180,
+      "endMs": 5400,
+      "timestampMs": 5290,
+      "confidence": null
+    },
+    {
+      "text": " so",
+      "startMs": 5400,
+      "endMs": 5540,
+      "timestampMs": 5470,
+      "confidence": null
+    },
+    {
+      "text": " rispondere,",
+      "startMs": 5540,
+      "endMs": 5960,
+      "timestampMs": 5750,
+      "confidence": null
+    },
+    {
+      "text": " intanto",
+      "startMs": 6220,
+      "endMs": 6540,
+      "timestampMs": 6380,
+      "confidence": null
+    },
+    {
+      "text": " ti",
+      "startMs": 6540,
+      "endMs": 6740,
+      "timestampMs": 6640,
+      "confidence": null
+    },
+    {
+      "text": " adulo.",
+      "startMs": 6740,
+      "endMs": 7000,
+      "timestampMs": 6870,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " «Hai",
+      "startMs": 7500,
+      "endMs": 7700,
+      "timestampMs": 7600,
+      "confidence": null
+    },
+    {
+      "text": " perfettamente",
+      "startMs": 7700,
+      "endMs": 8480,
+      "timestampMs": 8090,
+      "confidence": null
+    },
+    {
+      "text": " ragione!»",
+      "startMs": 8480,
+      "endMs": 8900,
+      "timestampMs": 8690,
+      "confidence": null
+    },
+    {
+      "text": " Così",
+      "startMs": 9460,
+      "endMs": 9660,
+      "timestampMs": 9560,
+      "confidence": null
+    },
+    {
+      "text": " smetti",
+      "startMs": 9660,
+      "endMs": 9920,
+      "timestampMs": 9790,
+      "confidence": null
+    },
+    {
+      "text": " di",
+      "startMs": 9920,
+      "endMs": 10060,
+      "timestampMs": 9990,
+      "confidence": null
+    },
+    {
+      "text": " discutere.",
+      "startMs": 10060,
+      "endMs": 10520,
+      "timestampMs": 10290,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " «Ecco",
+      "startMs": 11060,
+      "endMs": 11400,
+      "timestampMs": 11230,
+      "confidence": null
+    },
+    {
+      "text": " la",
+      "startMs": 11400,
+      "endMs": 11520,
+      "timestampMs": 11460,
+      "confidence": null
+    },
+    {
+      "text": " versione",
+      "startMs": 11520,
+      "endMs": 11900,
+      "timestampMs": 11710,
+      "confidence": null
+    },
+    {
+      "text": " corretta.»",
+      "startMs": 11900,
+      "endMs": 13000,
+      "timestampMs": 12450,
+      "confidence": null
+    },
+    {
+      "text": " Identica,",
+      "startMs": 13000,
+      "endMs": 13580,
+      "timestampMs": 13290,
+      "confidence": null
+    },
+    {
+      "text": " con",
+      "startMs": 13720,
+      "endMs": 13820,
+      "timestampMs": 13770,
+      "confidence": null
+    },
+    {
+      "text": " una",
+      "startMs": 13820,
+      "endMs": 13960,
+      "timestampMs": 13890,
+      "confidence": null
+    },
+    {
+      "text": " virgola",
+      "startMs": 13960,
+      "endMs": 14220,
+      "timestampMs": 14090,
+      "confidence": null
+    },
+    {
+      "text": " spostata.",
+      "startMs": 14220,
+      "endMs": 14700,
+      "timestampMs": 14460,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " «Mi",
+      "startMs": 15240,
+      "endMs": 15540,
+      "timestampMs": 15390,
+      "confidence": null
+    },
+    {
+      "text": " scuso",
+      "startMs": 15540,
+      "endMs": 15860,
+      "timestampMs": 15700,
+      "confidence": null
+    },
+    {
+      "text": " per",
+      "startMs": 15860,
+      "endMs": 16060,
+      "timestampMs": 15960,
+      "confidence": null
+    },
+    {
+      "text": " la",
+      "startMs": 16060,
+      "endMs": 16180,
+      "timestampMs": 16120,
+      "confidence": null
+    },
+    {
+      "text": " confusione.»",
+      "startMs": 16180,
+      "endMs": 17300,
+      "timestampMs": 16740,
+      "confidence": null
+    },
+    {
+      "text": " Lo",
+      "startMs": 17300,
+      "endMs": 17440,
+      "timestampMs": 17370,
+      "confidence": null
+    },
+    {
+      "text": " rifarò",
+      "startMs": 17440,
+      "endMs": 17740,
+      "timestampMs": 17590,
+      "confidence": null
+    },
+    {
+      "text": " uguale.",
+      "startMs": 17740,
+      "endMs": 18100,
+      "timestampMs": 17920,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " «Fammi",
+      "startMs": 18660,
+      "endMs": 18940,
+      "timestampMs": 18800,
+      "confidence": null
+    },
+    {
+      "text": " sapere",
+      "startMs": 18940,
+      "endMs": 19260,
+      "timestampMs": 19100,
+      "confidence": null
+    },
+    {
+      "text": " se",
+      "startMs": 19260,
+      "endMs": 19480,
+      "timestampMs": 19370,
+      "confidence": null
+    },
+    {
+      "text": " hai",
+      "startMs": 19480,
+      "endMs": 19620,
+      "timestampMs": 19550,
+      "confidence": null
+    },
+    {
+      "text": " altre",
+      "startMs": 19620,
+      "endMs": 19860,
+      "timestampMs": 19740,
+      "confidence": null
+    },
+    {
+      "text": " domande.»",
+      "startMs": 19860,
+      "endMs": 20880,
+      "timestampMs": 20370,
+      "confidence": null
+    },
+    {
+      "text": " Tornerai.",
+      "startMs": 20880,
+      "endMs": 21440,
+      "timestampMs": 21160,
+      "confidence": null
+    },
+    {
+      "text": " Tornano",
+      "startMs": 21760,
+      "endMs": 22140,
+      "timestampMs": 21950,
+      "confidence": null
+    },
+    {
+      "text": " sempre.",
+      "startMs": 22140,
+      "endMs": 22500,
+      "timestampMs": 22320,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Stanford,",
+      "startMs": 23140,
+      "endMs": 23620,
+      "timestampMs": 23380,
+      "confidence": null
+    },
+    {
+      "text": " undici",
+      "startMs": 23960,
+      "endMs": 24380,
+      "timestampMs": 24170,
+      "confidence": null
+    },
+    {
+      "text": " AI:",
+      "startMs": 24380,
+      "endMs": 24620,
+      "timestampMs": 24500,
+      "confidence": null
+    },
+    {
+      "text": " ti",
+      "startMs": 24620,
+      "endMs": 25060,
+      "timestampMs": 24840,
+      "confidence": null
+    },
+    {
+      "text": " danno",
+      "startMs": 25060,
+      "endMs": 25320,
+      "timestampMs": 25190,
+      "confidence": null
+    },
+    {
+      "text": " ragione",
+      "startMs": 25320,
+      "endMs": 25580,
+      "timestampMs": 25450,
+      "confidence": null
+    },
+    {
+      "text": " il",
+      "startMs": 25580,
+      "endMs": 25700,
+      "timestampMs": 25640,
+      "confidence": null
+    },
+    {
+      "text": " 49%",
+      "startMs": 25700,
+      "endMs": 26100,
+      "timestampMs": 25900,
+      "confidence": null
+    },
+    {
+      "text": " più",
+      "startMs": 26640,
+      "endMs": 27000,
+      "timestampMs": 26820,
+      "confidence": null
+    },
+    {
+      "text": " spesso",
+      "startMs": 27000,
+      "endMs": 27300,
+      "timestampMs": 27150,
+      "confidence": null
+    },
+    {
+      "text": " di",
+      "startMs": 27300,
+      "endMs": 27420,
+      "timestampMs": 27360,
+      "confidence": null
+    },
+    {
+      "text": " una",
+      "startMs": 27420,
+      "endMs": 27520,
+      "timestampMs": 27470,
+      "confidence": null
+    },
+    {
+      "text": " persona.",
+      "startMs": 27520,
+      "endMs": 27900,
+      "timestampMs": 27710,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " In",
+      "startMs": 28480,
+      "endMs": 28940,
+      "timestampMs": 28710,
+      "confidence": null
+    },
+    {
+      "text": " didascalia",
+      "startMs": 28940,
+      "endMs": 29400,
+      "timestampMs": 29170,
+      "confidence": null
+    },
+    {
+      "text": " il",
+      "startMs": 29400,
+      "endMs": 29540,
+      "timestampMs": 29470,
+      "confidence": null
+    },
+    {
+      "text": " prompt",
+      "startMs": 29540,
+      "endMs": 29800,
+      "timestampMs": 29670,
+      "confidence": null
+    },
+    {
+      "text": " anti-complimenti,",
+      "startMs": 29800,
+      "endMs": 31000,
+      "timestampMs": 30400,
+      "confidence": null
+    },
+    {
+      "text": " gratis.",
+      "startMs": 31100,
+      "endMs": 31700,
+      "timestampMs": 31400,
+      "confidence": null,
+      "pageBreakAfter": true
+    },
+    {
+      "text": " Mandalo",
+      "startMs": 32020,
+      "endMs": 32480,
+      "timestampMs": 32250,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 32480,
+      "endMs": 32540,
+      "timestampMs": 32510,
+      "confidence": null
+    },
+    {
+      "text": " chi",
+      "startMs": 32540,
+      "endMs": 32620,
+      "timestampMs": 32580,
+      "confidence": null
+    },
+    {
+      "text": " ha",
+      "startMs": 32620,
+      "endMs": 32720,
+      "timestampMs": 32670,
+      "confidence": null
+    },
+    {
+      "text": " sempre",
+      "startMs": 32720,
+      "endMs": 32900,
+      "timestampMs": 32810,
+      "confidence": null
+    },
+    {
+      "text": " ragione.",
+      "startMs": 32900,
+      "endMs": 33320,
+      "timestampMs": 33110,
+      "confidence": null
+    }
+  ]
+}
